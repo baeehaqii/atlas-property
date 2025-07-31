@@ -17,12 +17,12 @@
                             <div class="flex-1 max-w-4xl">
                                 <h1
                                     class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white leading-tight mb-4 lg:mb-6">
-                                    Wonder Real Estate<br>
-                                    Management
+                                    Hunian Ternyaman Hanya Di<br>
+                                    Atlas Property
                                 </h1>
                                 <p
                                     class="text-lg sm:text-xl md:text-2xl lg:text-2xl text-white font-light leading-relaxed max-w-2xl">
-                                    Smart, Hassle-Free Property Management Tailored For You.
+                                    Jl. Jend. Sudirman No.5-7, Purwokerto, Kabupaten Banyumas, Jawa Tengah 53116
                                 </p>
                             </div>
                             {{-- <div class="flex-shrink-0 ml-8">
@@ -48,17 +48,16 @@
                         <!-- Left Content -->
                         <div class="flex flex-col">
                             <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
-                                Your Trusted Property Management Partner
+                                Lebih Dekat Dengan Atlas Property
                             </h2>
 
                             <p class="text-gray-600 text-base lg:text-lg leading-relaxed mb-6">
-                                We specialize in delivering stress-free management for both residential and commercial
-                                properties. From tenant screening to maintenance, we handle it all—so you don't have to.
+                                Kami mengkhususkan diri dalam memberikan manajemen tanpa stres untuk properti residensial dan komersial. Dari penyaringan penyewa hingga pemeliharaan, kami menangani semuanya—jadi Anda tidak perlu.
                             </p>
 
                             <p class="text-gray-600 text-base lg:text-lg leading-relaxed mb-8">
-                                Driven by our passion for real estate and commitment to service, we deliver seamless
-                                property management that keeps tenants happy and maximizes the value of your investment.
+                                Didorong oleh hasrat kami terhadap real estat dan komitmen terhadap layanan, kami memberikan
+                                manajemen properti yang menjaga kepuasan penyewa dan memaksimalkan nilai investasi Anda.
                             </p>
 
                             <!-- Button sesuai referensi - satu kesatuan dengan border -->
@@ -106,15 +105,13 @@
             <section class="py-16 lg:py-24 bg-primary-900 rounded-xl ">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
                     <div class="text-center mb-12">
-                        <span
-                            class="inline-block bg-white/10 text-white text-xs font-semibold px-4 py-2 rounded-full mb-4">Why
-                            Choose Us</span>
-                        <h2 class="text-4xl lg:text-5xl font-bold text-white">Why Wonder</h2>
+                        
+                        <h2 class="text-4xl lg:text-5xl font-bold text-white">Kenapa Memilih Kami?</h2>
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {{-- Feature Cards --}}
                         <div class="bg-white p-8 rounded-2xl shadow-lg text-center flex flex-col items-center">
-                            <div class="bg-green-50 p-4 rounded-full mb-4">
+                            <div class="bg-primary-50 p-4 rounded-full mb-4">
                                 <svg class="w-8 h-8 text-primary-700" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -122,12 +119,12 @@
                                     </path>
                                 </svg>
                             </div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Always Available</h3>
-                            <p class="text-gray-600">Reach out anytime. We're responsive, reliable, and ready to help.
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Legalitas Terjamin</h3>
+                            <p class="text-gray-600">Kami memastikan semua dokumen dan izin properti Anda lengkap dan sesuai hukum, sehingga Anda dapat tenang berinvestasi.</p>
                             </p>
                         </div>
                         <div class="bg-white p-8 rounded-2xl shadow-lg text-center flex flex-col items-center">
-                            <div class="bg-green-50 p-4 rounded-full mb-4">
+                            <div class="bg-primary-50 p-4 rounded-full mb-4">
                                 <svg class="w-8 h-8 text-primary-700" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -135,11 +132,11 @@
                                     </path>
                                 </svg>
                             </div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Complete Property Care</h3>
-                            <p class="text-gray-600">From leasing to repairs, we manage every detail under one roof.</p>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Perawatan Properti Lengkap</h3>
+                            <p class="text-gray-600">Dari penyewaan hingga perbaikan, kami mengelola setiap detail di bawah satu atap.</p>
                         </div>
                         <div class="bg-white p-8 rounded-2xl shadow-lg text-center flex flex-col items-center">
-                            <div class="bg-green-50 p-4 rounded-full mb-4">
+                            <div class="bg-primary-50 p-4 rounded-full mb-4">
                                 <svg class="w-8 h-8 text-primary-700" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
@@ -151,12 +148,12 @@
                                     </path>
                                 </svg>
                             </div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Expert Knowledge</h3>
-                            <p class="text-gray-600">Our experienced team knows the market and offers solutions that
-                                work.</p>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Pengetahuan Ahli</h3>
+                            <p class="text-gray-600">Tim kami yang berpengalaman mengetahui pasar dan menawarkan solusi yang
+                                efektif.</p>
                         </div>
                         <div class="bg-white p-8 rounded-2xl shadow-lg text-center flex flex-col items-center">
-                            <div class="bg-green-50 p-4 rounded-full mb-4">
+                            <div class="bg-primary-50 p-4 rounded-full mb-4">
                                 <svg class="w-8 h-8 text-primary-700" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -168,11 +165,11 @@
                                         d="M12 11a4 4 0 110-8 4 4 0 010 8z"></path>
                                 </svg>
                             </div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2">For All Property Sizes</h3>
-                            <p class="text-gray-600">We serve both large portfolios and individual property owners.</p>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Untuk Semua Ukuran Properti</h3>
+                            <p class="text-gray-600">Kami melayani baik portofolio besar maupun pemilik properti individu.</p>
                         </div>
                         <div class="bg-white p-8 rounded-2xl shadow-lg text-center flex flex-col items-center">
-                            <div class="bg-green-50 p-4 rounded-full mb-4">
+                            <div class="bg-primary-50 p-4 rounded-full mb-4">
                                 <svg class="w-8 h-8 text-primary-700" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -180,12 +177,12 @@
                                     </path>
                                 </svg>
                             </div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2">24/7 Online Access</h3>
-                            <p class="text-gray-600">Stay in control 24/7 with our secure portal—track updates,
-                                documents, and payments anytime.</p>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Akses Online 24/7</h3>
+                            <p class="text-gray-600">Tetap kendalikan 24/7 dengan portal aman kami—lacak pembaruan,
+                                dokumen, dan pembayaran kapan saja.</p>
                         </div>
                         <div class="bg-white p-8 rounded-2xl shadow-lg text-center flex flex-col items-center">
-                            <div class="bg-green-50 p-4 rounded-full mb-4">
+                            <div class="bg-primary-50 p-4 rounded-full mb-4">
                                 <svg class="w-8 h-8 text-primary-700" fill="none" stroke="currentColor"
                                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -193,9 +190,9 @@
                                     </path>
                                 </svg>
                             </div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Online Portal</h3>
-                            <p class="text-gray-600">Access everything through our online portal—rental agreements,
-                                invoices, property overviews, and more.</p>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Portal Online</h3>
+                            <p class="text-gray-600">Akses semua informasi melalui portal online kami—perjanjian sewa,
+                                faktur, ikhtisar properti, dan banyak lagi.</p>
                         </div>
                     </div>
                 </div>
@@ -247,7 +244,7 @@
                                         <div
                                             class="service-details max-h-0 opacity-0 transition-all duration-500 ease-in-out mt-2">
                                             <p class="text-gray-200">Jl. Loremipsum no.6 Purwokerto</p>
-                                            <a href="#"
+                                            <a href="/arcadia"
                                                 class="inline-flex items-center mt-4 font-semibold text-white-800 hover:text-primary-300">
                                                 Selengkapnya <svg class="w-4 h-4 ml-2" fill="none"
                                                     stroke="currentColor" viewBox="0 0 24 24">
@@ -334,19 +331,14 @@
                     {{-- Section Header --}}
                     <div class="flex justify-between items-end mb-12">
                         <div>
-                            {{-- Small indicator dengan dot hijau --}}
-                            <div class="flex items-center gap-2 mb-4">
-                                <div class="w-2 h-2 bg-green-800 rounded-full"></div>
-                                <span class="text-gray-600 text-sm font-medium">Blog</span>
-                            </div>
-                            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900">Popular Articles</h2>
+                            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900">Artikel Populer</h2>
                         </div>
 
                         {{-- View All Button sesuai referensi --}}
                         <div class="flex items-center gap-4">
                             <a href="#"
-                                class="group bg-green-800 hover:bg-green-700 text-white px-6 py-3 rounded-full inline-flex items-center space-x-3 transition-all duration-300 transform hover:scale-105 font-semibold text-sm">
-                                <span>View All</span>
+                                class="group bg-primary-800 hover:bg-primary-700 text-white px-6 py-3 rounded-full inline-flex items-center space-x-3 transition-all duration-300 transform hover:scale-105 font-semibold text-sm">
+                                <span>Lihat Semua</span>
                                 <svg class="w-4 h-4 group-hover:translate-x-0.5 transition-transform duration-300"
                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -412,12 +404,7 @@
                         <!-- Header Section -->
                         <div class="flex justify-between items-end mb-12">
                             <div>
-                                <!-- Small indicator dengan dot hijau -->
-                                <div class="flex items-center gap-2 mb-4">
-                                    <div class="w-2 h-2 bg-green-800 rounded-full"></div>
-                                    <span class="text-gray-600 text-sm font-medium">Testimonial</span>
-                                </div>
-                                <h2 class="text-4xl lg:text-5xl font-bold text-gray-900">What Clients Say</h2>
+                                <h2 class="text-4xl lg:text-5xl font-bold text-gray-900">Testimoni Atlas Property</h2>
                             </div>
 
                             <!-- Navigation Buttons -->

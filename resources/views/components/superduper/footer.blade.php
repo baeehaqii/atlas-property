@@ -1,58 +1,93 @@
-<footer class="section-footer">
-    
-                {{-- Footer --}}
-                <footer style="background-color: #1a4731;" class="text-white">
-                    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 py-12 lg:py-16">
-                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-                            {{-- Left Side: Logo and Socials --}}
-                            <div class="flex flex-col items-center lg:items-start text-center lg:text-left">
-                                <a href="#" class="mb-6">
-                                    {{-- Placeholder SVG Logo --}}
-                                    <svg width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)">
-                                        <path d="M10 90V10H30V70H70V90H10Z" fill="white"/>
-                                        <path d="M40 60V40H90V60H40Z" fill="white"/>
-                                        <path d="M70 30V10H90V30H70Z" fill="white"/>
-                                        <text x="105" y="45" font-family="Arial, sans-serif" font-size="20" fill="white" font-weight="bold">WONDER</text>
-                                        <text x="105" y="70" font-family="Arial, sans-serif" font-size="18" fill="white">REAL ESTATE</text>
-                                    </svg>
-                                </a>
-                                <div class="flex space-x-4">
-                                    <a href="#" class="w-10 h-10 rounded-full border border-white/30 flex items-center justify-center hover:bg-white/10 transition">
-                                        {{-- Facebook Icon --}}
-                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v2.385z"/></svg>
-                                    </a>
-                                    <a href="#" class="w-10 h-10 rounded-full border border-white/30 flex items-center justify-center hover:bg-white/10 transition">
-                                        {{-- Instagram Icon --}}
-                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.645-.069-4.85s.011-3.584.069-4.85c.149-3.225 1.664-4.771 4.919-4.919 1.266-.057 1.644-.07 4.85-.07zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948s.014 3.667.072 4.947c.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072s3.667-.014 4.947-.072c4.358-.2 6.78-2.618 6.98-6.98.059-1.281.073-1.689.073-4.948s-.014-3.667-.072-4.947c-.2-4.358-2.618-6.78-6.98-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.162 6.162 6.162 6.162-2.759 6.162-6.162-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.79 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44 1.441-.645 1.441-1.44-.645-1.44-1.441-1.44z"/></svg>
-                                    </a>
-                                    <a href="#" class="w-10 h-10 rounded-full border border-white/30 flex items-center justify-center hover:bg-white/10 transition">
-                                        {{-- LinkedIn Icon --}}
-                                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-4.481 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.59-11.018-3.714v-2.155z"/></svg>
-                                    </a>
-                                </div>
-                            </div>
+<footer class="bg-gray-900 text-gray-300 rounded-t-2xl mt-12">
+    <div class="container mx-auto px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+            <!-- Logo & Address -->
+            <div class="md:col-span-4">
+                <div>
+                    <a href="{{ route('home') }}" class="relative z-10 flex-shrink-0">
+                        @php
+                            $brandLogo = $generalSettings->brand_logo ?? null;
+                            $brandName = $generalSettings->brand_name ?? config('app.name', 'Atlas Property');
+                        @endphp
 
-                            {{-- Right Side: Newsletter --}}
-                            <div class="w-full">
-                                <h3 class="text-2xl lg:text-3xl font-semibold mb-4">Be the first to know about new listing, price drops, and expert real estate tips - straight to your inbox!</h3>
-                                <form action="#" class="mt-6 flex flex-col sm:flex-row gap-3">
-                                    <input type="email" placeholder="Email address" class="flex-grow w-full px-5 py-3 rounded-full bg-white/10 border border-white/30 placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/50 transition">
-                                    <button type="submit" class="bg-white text-green-800 font-semibold px-6 py-3 rounded-full flex items-center justify-center gap-2 hover:bg-gray-200 transition">
-                                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                                        <span>Submit</span>
-                                    </button>
-                                </form>
+                        @if ($brandLogo)
+                            <img src="{{ Storage::url($brandLogo) }}" alt="{{ $brandName }}"
+                                class="w-auto h-10 md:h-12" />
+                        @else
+                            <div class="flex items-center">
+                                <span
+                                    class="text-xl font-bold md:text-2xl text-primary-800 dark:text-white header-brand-text">{{ $brandName }}</span>
                             </div>
-                        </div>
+                        @endif
+                    </a>
+                </div>
+                <p class="text-sm">
+                    Jl. Jend. Sudirman No.5-7, Purwokerto, <br>
+                    Kabupaten Banyumas, Jawa Tengah 53116 <br>
+                    Indonesia
+                </p>
+                <p class="mt-4 text-sm">+62 281 123456</p>
+                <p class="text-sm">info@arcadia.co.id</p>
+            </div>
 
-                        {{-- Bottom Bar --}}
-                        <div class="mt-12 lg:mt-16 pt-8 border-t border-white/20 flex flex-col sm:flex-row justify-between items-center text-sm">
-                            <p class="text-white/70 mb-4 sm:mb-0">&copy; {{ date('Y') }} wonderrealestate.com</p>
-                            <div class="flex space-x-6 text-white/70">
-                                <a href="#" class="hover:text-white transition">Terms and Conditions</a>
-                                <a href="#" class="hover:text-white transition">Privacy Statement</a>
-                            </div>
-                        </div>
+            <!-- Navigation Links -->
+            <div class="md:col-span-2">
+                <h3 class="font-bold text-white mb-4">Navigasi</h3>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white">Home</a></li>
+                    <li><a href="#" class="hover:text-white">Tentang Kami</a></li>
+                    <li><a href="#" class="hover:text-white">Properti</a></li>
+                    <li><a href="#" class="hover:text-white">Hubungi Kami</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="md:col-span-4 md:col-start-9">
+                <h3 class="font-bold text-white mb-4">Daftar untuk Info Terbaru</h3>
+                <form action="#" method="POST">
+                    <div class="relative">
+                        <input type="email" placeholder="Alamat email Anda"
+                            class="w-full bg-gray-800 text-white rounded-full py-3 px-5 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-amber-500">
+                        <button type="submit"
+                            class="absolute right-1 top-1/2 -translate-y-1/2 bg-amber-600 hover:bg-amber-700 rounded-full p-2">
+                            <svg class="w-5 h-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                        </button>
                     </div>
-                </footer>
+                </form>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
+            <p class="text-gray-400 mb-4 md:mb-0">Copyright &copy; 2025 Atlas Properties. All rights reserved.</p>
+            <div class="flex space-x-4">
+                <a href="#" class="text-gray-400 hover:text-white"><svg class="w-5 h-5" fill="currentColor"
+                        viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                            clip-rule="evenodd" />
+                    </svg></a>
+                <a href="#" class="text-gray-400 hover:text-white"><svg class="w-5 h-5" fill="currentColor"
+                        viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                    </svg></a>
+                <a href="#" class="text-gray-400 hover:text-white"><svg class="w-5 h-5" fill="currentColor"
+                        viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M12 2C6.477 2 2 6.477 2 12c0 4.237 2.635 7.855 6.357 9.252-.475-.824-.624-1.78-.53-2.735.09-.94.64-3.163.64-3.163s-.223-.446-.223-1.103c0-1.04.6-1.822 1.34-1.822.633 0 .935.473.935 1.04 0 .633-.408 1.573-.615 2.443-.16.71.345 1.295 1.04 1.295 1.243 0 2.202-1.313 2.202-3.218 0-1.68-.95-2.86-2.23-2.86-1.522 0-2.422 1.134-2.422 2.512 0 .33.102.68.22.89.02.03.02.06.01.08-.02.08-.06.23-.08.31a.21.21 0 01-.33.15c-.5-.31-.83-.83-.83-1.433 0-1.14.83-2.18 2.64-2.18 1.94 0 3.33 1.39 3.33 3.168 0 1.93-1.15 3.39-2.74 3.39-.56 0-1.08-.28-.125-.57.2-.66.56-1.34.56-1.34s.142-.57.53-.57c.53 0 .94.52.94 1.14 0 .93-.58 1.73-1.38 1.73-.77 0-1.4-1.04-1.18-2.35.24-1.5.88-3.05 1.2-4.03.32-.98.28-2.14-.08-2.85a.5.5 0 00-.69-.22c-1.2.46-1.93 1.3-2.48 2.33-.24.46-.3.95-.28 1.47l.02.18c.02.12.04.24.05.36.02.12.02.24 0 .36-.04.16-.08.32-.12.48a.5.5 0 01-.69.22c-1.2-.46-1.93-1.3-2.48-2.33A10.005 10.005 0 0112 2z"
+                            clip-rule="evenodd" />
+                    </svg></a>
+                <a href="#" class="text-gray-400 hover:text-white"><svg class="w-5 h-5" fill="currentColor"
+                        viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm5.5-1.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm4.5 1.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z"
+                            clip-rule="evenodd" />
+                    </svg></a>
+            </div>
+        </div>
+    </div>
 </footer>

@@ -23,7 +23,7 @@
 
             {{-- Statistics Section --}}
             <div class="bg-[#B19244] rounded-3xl p-8 lg:p-12">
-                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-12">
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 lg:gap-12">
 
                     {{-- Statistic 1: Employees --}}
                     <div class="text-center">
@@ -31,27 +31,27 @@
                             100+
                         </div>
                         <p class="text-amber-800 font-medium text-sm lg:text-base">
-                            employees
+                            Rumah Terbangun
                         </p>
                     </div>
 
                     {{-- Statistic 2: Countries --}}
                     <div class="text-center">
                         <div class="text-4xl lg:text-5xl xl:text-6xl font-bold text-amber-900 mb-2">
-                            15+
+                            3+
                         </div>
                         <p class="text-amber-800 font-medium text-sm lg:text-base">
-                            Countries
+                            Wilayah
                         </p>
                     </div>
 
                     {{-- Statistic 3: Projects Done --}}
                     <div class="text-center">
                         <div class="text-4xl lg:text-5xl xl:text-6xl font-bold text-amber-900 mb-2">
-                            60+
+                            100+
                         </div>
                         <p class="text-amber-800 font-medium text-sm lg:text-base">
-                            Projects done
+                            Teman Atlas Property
                         </p>
                     </div>
 
@@ -61,20 +61,9 @@
                             30+
                         </div>
                         <p class="text-amber-800 font-medium text-sm lg:text-base">
-                            Offices
+                            Marketing
                         </p>
                     </div>
-
-                    {{-- Statistic 5: Project Awards --}}
-                    <div class="text-center">
-                        <div class="text-4xl lg:text-5xl xl:text-6xl font-bold text-amber-900 mb-2">
-                            25+
-                        </div>
-                        <p class="text-amber-800 font-medium text-sm lg:text-base">
-                            Project Awards
-                        </p>
-                    </div>
-
                 </div>
             </div>
 
@@ -117,9 +106,12 @@
                             Langkah Pertama:
                         </h3>
                         <p class="text-gray-600 text-base lg:text-lg leading-relaxed">
-                            Atlas Property didirikan atas visi kolektif yang dibagikan di antara para profesional berpengalaman
-                            yang ingin mendefinisikan kembali keunggulan dalam industri manajemen properti. Dengan pengalaman
-                            puluhan tahun, para pendiri kami mendirikan perusahaan yang mengutamakan inovasi, integritas, dan
+                            Atlas Property didirikan atas visi kolektif yang dibagikan di antara para profesional
+                            berpengalaman
+                            yang ingin mendefinisikan kembali keunggulan dalam industri manajemen properti. Dengan
+                            pengalaman
+                            puluhan tahun, para pendiri kami mendirikan perusahaan yang mengutamakan inovasi,
+                            integritas, dan
                             dedikasi yang tak tergoyahkan untuk kepuasan klien.
                         </p>
                     </div>
@@ -132,7 +124,8 @@
                             Berawal Dari Anda
                         </h3>
                         <p class="text-gray-600 text-base lg:text-lg leading-relaxed">
-                            Dari awal yang sederhana sebagai startup hingga posisi kami saat ini sebagai pemimpin industri yang dihormati,
+                            Dari awal yang sederhana sebagai startup hingga posisi kami saat ini sebagai pemimpin
+                            industri yang dihormati,
                             Atlas Property telah menjalani perjalanan evolusi yang luar biasa. Sepanjang proses ini,
                             kami tetap teguh dalam menjunjung tinggi nilai-nilai inti kami sambil terus merangkul
                             peluang untuk pertumbuhan dan perbaikan.
@@ -159,8 +152,10 @@
                             Komitmen Terhadap Keunggulan:
                         </h3>
                         <p class="text-gray-600 text-base lg:text-lg leading-relaxed">
-                            Di Atlas Property, keunggulan bukan sekadar tujuan, tetapi aspek mendasar dari budaya perusahaan kami. 
-                            Setiap anggota tim kami sangat berkomitmen untuk memberikan kualitas dan kerajinan yang luar biasa dalam setiap proyek yang kami jalankan, memastikan kami melebihi harapan klien.
+                            Di Atlas Property, keunggulan bukan sekadar tujuan, tetapi aspek mendasar dari budaya
+                            perusahaan kami.
+                            Setiap anggota tim kami sangat berkomitmen untuk memberikan kualitas dan kerajinan yang luar
+                            biasa dalam setiap proyek yang kami jalankan, memastikan kami melebihi harapan klien.
                         </p>
                     </div>
                 </div>
@@ -201,10 +196,14 @@
 
                 {{-- Introduction Paragraph --}}
                 <p class="text-gray-600 text-lg lg:text-xl leading-relaxed max-w-5xl mx-auto">
-                    Di Atlas Property, misi kami adalah untuk mendefinisikan kembali keunggulan dalam industri manajemen properti dengan
-                    memberikan solusi yang inovatif, berkelanjutan, dan berkualitas tinggi yang melebihi harapan klien kami.
-                    Kami berkomitmen untuk membangun hubungan jangka panjang yang didasarkan pada kepercayaan, integritas, dan
-                    layanan yang luar biasa, sambil berusaha untuk memberikan dampak positif pada komunitas yang kami layani.
+                    Di Atlas Property, misi kami adalah untuk mendefinisikan kembali keunggulan dalam industri manajemen
+                    properti dengan
+                    memberikan solusi yang inovatif, berkelanjutan, dan berkualitas tinggi yang melebihi harapan klien
+                    kami.
+                    Kami berkomitmen untuk membangun hubungan jangka panjang yang didasarkan pada kepercayaan,
+                    integritas, dan
+                    layanan yang luar biasa, sambil berusaha untuk memberikan dampak positif pada komunitas yang kami
+                    layani.
                 </p>
             </div>
 
@@ -263,8 +262,10 @@
                         Keunggulan
                     </h3>
                     <p class="text-gray-600 text-base leading-relaxed mb-6">
-                        Kami berkomitmen untuk memberikan kualitas dan kerajinan yang luar biasa dalam semua proyek kami. Dari
-                        konsep hingga penyelesaian, kami berusaha untuk mencapai keunggulan dalam setiap detail untuk memastikan kualitas tertinggi.
+                        Kami berkomitmen untuk memberikan kualitas dan kerajinan yang luar biasa dalam semua proyek
+                        kami. Dari
+                        konsep hingga penyelesaian, kami berusaha untuk mencapai keunggulan dalam setiap detail untuk
+                        memastikan kualitas tertinggi.
                     </p>
 
                     {{-- Read More Link --}}
@@ -297,7 +298,8 @@
                         Kolaborasi
                     </h3>
                     <p class="text-gray-600 text-base leading-relaxed mb-6">
-                        Kami menghargai kolaborasi dan kerja tim, baik secara internal dalam organisasi kami maupun secara eksternal dengan
+                        Kami menghargai kolaborasi dan kerja tim, baik secara internal dalam organisasi kami maupun
+                        secara eksternal dengan
                         klien dan mitra kami. Dengan mendorong komunikasi terbuka dan saling menghormati.
                     </p>
 
@@ -352,168 +354,177 @@
     </section>
 
     {{-- Section Video --}}
-   <section class="py-16 lg:py-24 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
-        
-        {{-- Header Section --}}
-        <div class="text-center mb-12 lg:mb-16">
-            
-            <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-8">
-                Perjalanan Atlas Property
-            </h2>
-            
-            {{-- Introduction Paragraph --}}
-            <p class="text-gray-600 text-lg lg:text-xl leading-relaxed max-w-4xl mx-auto">
-                Tonton video profil perusahaan kami untuk mempelajari perjalanan kami, bertemu tim kami, dan menemukan apa yang menjadikan Wonder Real Estate pilihan tepercaya untuk keunggulan manajemen properti.
-            </p>
-        </div>
+    <section class="py-16 lg:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
 
-        {{-- Video Card --}}
-        <div class="max-w-5xl mx-auto">
-            <div class="bg-white rounded-3xl p-6 lg:p-8 shadow-lg">
-                <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 lg:gap-8 items-center">
-                    
-                    {{-- Video Thumbnail (Left Side - 2 columns) --}}
-                    <div class="lg:col-span-2">
-                        <div class="relative rounded-2xl overflow-hidden">
-                            <img src="{{ asset('storage/sites/company-profile-video.jpg') }}" 
-                                 alt="Wonder Real Estate Company Profile" 
-                                 class="w-full h-48 lg:h-64 object-cover">
-                            
-                            {{-- Dark Overlay --}}
-                            <div class="absolute inset-0 bg-black/50"></div>
-                            
-                            {{-- Play Button and Text --}}
-                            <div class="absolute inset-0 flex items-center justify-center">
-                                <div class="text-center">
-                                    <div class="bg-white/20 backdrop-blur-sm rounded-full p-4 mb-3 mx-auto w-16 h-16 flex items-center justify-center">
-                                        <svg class="w-6 h-6 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
-                                            <path d="M8 5v14l11-7z"/>
-                                        </svg>
+            {{-- Header Section --}}
+            <div class="text-center mb-12 lg:mb-16">
+
+                <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-8">
+                    Perjalanan Atlas Property
+                </h2>
+
+                {{-- Introduction Paragraph --}}
+                <p class="text-gray-600 text-lg lg:text-xl leading-relaxed max-w-4xl mx-auto">
+                    Tonton video profil perusahaan kami untuk mempelajari perjalanan kami, bertemu tim kami, dan
+                    menemukan apa yang menjadikan Wonder Real Estate pilihan tepercaya untuk keunggulan manajemen
+                    properti.
+                </p>
+            </div>
+
+            {{-- Video Card --}}
+            <div class="max-w-5xl mx-auto">
+                <div class="bg-white rounded-3xl p-6 lg:p-8 shadow-lg">
+                    <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 lg:gap-8 items-center">
+
+                        {{-- Video Thumbnail (Left Side - 2 columns) --}}
+                        <div class="lg:col-span-2">
+                            <div class="relative rounded-2xl overflow-hidden">
+                                <img src="{{ asset('storage/sites/company-profile-video.jpg') }}"
+                                    alt="Wonder Real Estate Company Profile" class="w-full h-48 lg:h-64 object-cover">
+
+                                {{-- Dark Overlay --}}
+                                <div class="absolute inset-0 bg-black/50"></div>
+
+                                {{-- Play Button and Text --}}
+                                <div class="absolute inset-0 flex items-center justify-center">
+                                    <div class="text-center">
+                                        <div
+                                            class="bg-white/20 backdrop-blur-sm rounded-full p-4 mb-3 mx-auto w-16 h-16 flex items-center justify-center">
+                                            <svg class="w-6 h-6 text-white ml-1" fill="currentColor"
+                                                viewBox="0 0 24 24">
+                                                <path d="M8 5v14l11-7z" />
+                                            </svg>
+                                        </div>
+                                        <p class="text-white font-medium text-sm lg:text-base">
+                                            Watch the video
+                                        </p>
                                     </div>
-                                    <p class="text-white font-medium text-sm lg:text-base">
-                                        Watch the video
-                                    </p>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    {{-- Video Content (Right Side - 3 columns) --}}
-                    <div class="lg:col-span-3 space-y-4">
-                        
-                        <h3 class="text-2xl lg:text-3xl font-bold text-gray-900 leading-tight">
-                            Membangun Keunggulan dalam Property Bersama Kami
-                        </h3>
-                        
-                        {{-- Video Description --}}
-                        <p class="text-gray-600 text-base lg:text-lg leading-relaxed">
-                            Di Atlas Property, kami percaya bahwa setiap proyek adalah kesempatan untuk menciptakan sesuatu yang luar biasa. 
-                            Dari konsep hingga penyelesaian, tim kami berkomitmen untuk memberikan kualitas dan kerajinan yang tak tertandingi. 
-                            Saksikan perjalanan kami dalam video ini dan temukan bagaimana kami membangun masa depan properti yang lebih baik.
-                        </p>
-                    </div>
+                        {{-- Video Content (Right Side - 3 columns) --}}
+                        <div class="lg:col-span-3 space-y-4">
 
+                            <h3 class="text-2xl lg:text-3xl font-bold text-gray-900 leading-tight">
+                                Membangun Keunggulan dalam Property Bersama Kami
+                            </h3>
+
+                            {{-- Video Description --}}
+                            <p class="text-gray-600 text-base lg:text-lg leading-relaxed">
+                                Di Atlas Property, kami percaya bahwa setiap proyek adalah kesempatan untuk menciptakan
+                                sesuatu yang luar biasa.
+                                Dari konsep hingga penyelesaian, tim kami berkomitmen untuk memberikan kualitas dan
+                                kerajinan yang tak tertandingi.
+                                Saksikan perjalanan kami dalam video ini dan temukan bagaimana kami membangun masa depan
+                                properti yang lebih baik.
+                            </p>
+                        </div>
+
+                    </div>
                 </div>
             </div>
+
         </div>
+    </section>
 
-    </div>
-</section>
+    <section class="py-16 lg:py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
 
-<section class="py-16 lg:py-16 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
-        
-        {{-- CTA Container with Gradient Background --}}
-        <div class="bg-gradient-to-r from-primary-200 via-primary-50 to-[#b1924481] rounded-[3rem] p-8 sm:p-12 lg:p-16 text-center">
-            
-            {{-- Main Heading --}}
-            <h2 class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight mb-6 lg:mb-8">
-                Stay Connected with Wonder Real Estate
-            </h2>
-            
-            {{-- Description --}}
-            <p class="text-gray-600 text-lg lg:text-xl leading-relaxed max-w-4xl mx-auto mb-8 lg:mb-12">
-                Sign up for our newsletter to stay informed about the latest news, updates, and exclusive offers from Wonder Real Estate. By subscribing, you'll receive regular emails featuring project highlights, industry insights, and tips for your property management needs.
-            </p>
-            
-            {{-- Email Subscription Form --}}
-            <form action="#" method="POST" class="max-w-2xl mx-auto mb-6">
-                @csrf
-                <div class="flex flex-col sm:flex-row gap-4 sm:gap-0">
-                    {{-- Email Input --}}
-                    <div class="flex-1 relative">
-                        <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
-                            <svg class="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
-                                      d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-                            </svg>
+            {{-- CTA Container with Gradient Background --}}
+            <div
+                class="bg-gradient-to-r from-primary-200 via-primary-50 to-[#b1924481] rounded-[3rem] p-8 sm:p-12 lg:p-16 text-center">
+
+                {{-- Main Heading --}}
+                <h2
+                    class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight mb-6 lg:mb-8">
+                    Dapatkan Promo Terbaru
+                </h2>
+
+                {{-- Description --}}
+                <p class="text-gray-600 text-lg lg:text-xl leading-relaxed max-w-4xl mx-auto mb-8 lg:mb-12">
+                    Daftar untuk newsletter kami agar tetap mendapatkan informasi tentang berita terbaru, pembaruan, dan
+                    penawaran eksklusif dari Wonder Real Estate. Dengan berlangganan, Anda akan menerima email reguler
+                    yang menampilkan sorotan proyek, wawasan industri, dan tips untuk kebutuhan manajemen properti Anda.
+                </p>
+
+                {{-- Email Subscription Form --}}
+                <form action="#" method="POST" class="max-w-2xl mx-auto mb-6">
+                    @csrf
+                    <div class="flex flex-col sm:flex-row gap-4 sm:gap-0">
+                        {{-- Email Input --}}
+                        <div class="flex-1 relative">
+                            <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                                <svg class="h-5 w-5 text-gray-400" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                            </div>
+                            <input type="email" name="email" id="email" required
+                                placeholder="Enter your email"
+                                class="w-full pl-12 pr-4 py-4 bg-white border-0 rounded-full sm:rounded-r-none focus:ring-2 focus:ring-blue-500 focus:outline-none text-gray-900 placeholder-gray-500 text-base lg:text-lg shadow-sm">
                         </div>
-                        <input type="email" 
-                               name="email" 
-                               id="email"
-                               required
-                               placeholder="Enter your email"
-                               class="w-full pl-12 pr-4 py-4 bg-white border-0 rounded-full sm:rounded-r-none focus:ring-2 focus:ring-blue-500 focus:outline-none text-gray-900 placeholder-gray-500 text-base lg:text-lg shadow-sm">
-                    </div>
-                    
-                    {{-- Subscribe Button --}}
-                    <button type="submit" 
+
+                        {{-- Subscribe Button --}}
+                        <button type="submit"
                             class="bg-primary-900 hover:bg-[#B19244] text-white font-semibold px-8 py-4 rounded-full sm:rounded-l-none transition-colors duration-300 text-base lg:text-lg shadow-sm hover:shadow-md transform hover:scale-105 sm:hover:scale-100">
-                        Subscribe
-                    </button>
-                </div>
-            </form>
-            
-            {{-- Privacy Notice --}}
-            <p class="text-gray-500 text-sm lg:text-base">
-                We care about the protection of your data. Read our 
-                <a href="#" class="text-blue-600 hover:text-blue-700 underline transition-colors duration-300">
-                    Privacy Policy
-                </a>.
-            </p>
-            
-        </div>
-        
-    </div>
-</section>
+                            Subscribe
+                        </button>
+                    </div>
+                </form>
 
-{{-- Optional: Success/Error Messages --}}
-@if(session('newsletter_success'))
-    <div class="fixed top-4 right-4 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg z-50">
-        <div class="flex items-center">
-            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-            </svg>
-            {{ session('newsletter_success') }}
-        </div>
-    </div>
-@endif
+                {{-- Privacy Notice --}}
+                <p class="text-gray-500 text-sm lg:text-base">
+                    We care about the protection of your data. Read our
+                    <a href="#"
+                        class="text-blue-600 hover:text-blue-700 underline transition-colors duration-300">
+                        Privacy Policy
+                    </a>.
+                </p>
 
-@if(session('newsletter_error'))
-    <div class="fixed top-4 right-4 bg-red-500 text-white px-6 py-3 rounded-lg shadow-lg z-50">
-        <div class="flex items-center">
-            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-            </svg>
-            {{ session('newsletter_error') }}
-        </div>
-    </div>
-@endif
+            </div>
 
-{{-- Auto-hide success/error messages --}}
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const messages = document.querySelectorAll('.fixed.top-4.right-4');
-    messages.forEach(function(message) {
-        setTimeout(function() {
-            message.style.opacity = '0';
-            setTimeout(function() {
-                message.remove();
-            }, 300);
-        }, 5000);
-    });
-});
-</script>
+        </div>
+    </section>
+
+    {{-- Optional: Success/Error Messages --}}
+    @if (session('newsletter_success'))
+        <div class="fixed top-4 right-4 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg z-50">
+            <div class="flex items-center">
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                {{ session('newsletter_success') }}
+            </div>
+        </div>
+    @endif
+
+    @if (session('newsletter_error'))
+        <div class="fixed top-4 right-4 bg-red-500 text-white px-6 py-3 rounded-lg shadow-lg z-50">
+            <div class="flex items-center">
+                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+                {{ session('newsletter_error') }}
+            </div>
+        </div>
+    @endif
+
+    {{-- Auto-hide success/error messages --}}
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const messages = document.querySelectorAll('.fixed.top-4.right-4');
+            messages.forEach(function(message) {
+                setTimeout(function() {
+                    message.style.opacity = '0';
+                    setTimeout(function() {
+                        message.remove();
+                    }, 300);
+                }, 5000);
+            });
+        });
+    </script>
 
 </x-superduper.main>
