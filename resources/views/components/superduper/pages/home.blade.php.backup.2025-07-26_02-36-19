@@ -1,0 +1,15 @@
+<x-superduper.main>
+
+    <div class="page-wrapper relative z-[1]">
+        <main class="relative overflow-hidden main-wrapper pt-10">
+
+            {{-- <x-superduper.components.hero />
+            
+            <x-superduper.components.value-proposition />
+
+            <x-superduper.components.packages-plugins /> --}}
+
+            {{-- Showcases --}}
+            <h3>Homepage</h3>
+
+</x-superduper.main>
