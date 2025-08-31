@@ -42,6 +42,16 @@ class AboutPage extends Page implements HasForms
     {
         return 'Manage your website\'s about page content.';
     }
+    public function getHeaderActions(): array
+    {
+        return [
+            \Filament\Actions\Action::make('preview')
+                ->label('Preview')
+                ->icon('heroicon-o-eye')
+                ->url(route('about.preview'))
+                ->openUrlInNewTab(),
+        ];
+    }
 
     public function formatBytes(int $bytes, int $precision = 2): string
     {

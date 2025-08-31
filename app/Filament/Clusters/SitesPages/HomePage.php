@@ -36,6 +36,16 @@ class HomePage extends Page implements HasForms
     //     return [
     //     ];
     // }
+    public function getHeaderActions(): array
+    {
+        return [
+            \Filament\Actions\Action::make('preview')
+                ->label('Preview')
+                ->icon('heroicon-o-eye')
+                ->url(route('home.preview'))
+                ->openUrlInNewTab(),
+        ];
+    }
 
     public function mount(): void
     {

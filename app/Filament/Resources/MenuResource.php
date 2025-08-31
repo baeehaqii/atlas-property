@@ -14,4 +14,5 @@ class MenuResource extends BaseMenuResource
     {
         return __("menu.nav_group.sites");
     }
+    
 }

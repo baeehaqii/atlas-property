@@ -27,6 +27,10 @@ class CategoryResource extends Resource
     protected static ?int $navigationSort = -1;
     protected static ?string $navigationIcon = 'fluentui-stack-20';
     protected static ?string $navigationLabel = 'Categories';
+    public static function shouldRegisterNavigation(): bool
+{
+    return auth()->user()?->hasRole('superadmin');
+}
 
     public static function form(Form $form): Form
     {

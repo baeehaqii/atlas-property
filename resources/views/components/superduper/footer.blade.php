@@ -1,4 +1,4 @@
-<footer class="bg-gray-900 text-gray-300 rounded-t-2xl mt-12">
+<footer class="bg-[#042849] text-gray-300 rounded-t-2xl mt-12">
     <div class="container mx-auto px-6 lg:px-8 py-12">
         <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
             <!-- Logo & Address -->
@@ -27,7 +27,7 @@
                     Indonesia
                 </p>
                 <p class="mt-4 text-sm">+62 281 123456</p>
-                <p class="text-sm">info@arcadia.co.id</p>
+                <p class="text-sm">info@atlasproperty.co.id</p>
             </div>
 
             <!-- Navigation Links -->
@@ -61,7 +61,7 @@
             </div>
         </div>
 
-        <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
+        <div class="border-t border-secondary-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
             <p class="text-gray-400 mb-4 md:mb-0">Copyright &copy; 2025 Atlas Properties. All rights reserved.</p>
             <div class="flex space-x-4">
                 <a href="#" class="text-gray-400 hover:text-white"><svg class="w-5 h-5" fill="currentColor"

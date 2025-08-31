@@ -152,4 +152,15 @@ HTML;
     {
         return 'Arcadia Page Editor';
     }
+
+    public function getHeaderActions(): array
+    {
+        return [
+            \Filament\Actions\Action::make('preview')
+                ->label('Preview')
+                ->icon('heroicon-o-eye')
+                ->url(route('arcadia.preview'))
+                ->openUrlInNewTab(),
+        ];
+    }
 }

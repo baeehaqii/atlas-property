@@ -5,37 +5,31 @@
     <div class="page-wrapper relative z-[1]">
         <main class="relative overflow-hidden main-wrapper">
             {{-- Hero Section --}}
+
+
             <section class="relative min-h-screen overflow-hidden">
                 <div class="absolute inset-0 z-0">
-                    <img src="{{ asset('storage/sites/hero-bg.jpg') }}" alt="Luxury Real Estate Properties"
-                        class="w-full h-full object-cover">
-                    <div class="absolute inset-0 bg-black/30"></div>
+                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_40/hero-bg_okioxm.jpg"
+                        alt="Atlas Property" class="w-full h-full object-cover">
                 </div>
-                <div class="relative z-10 h-screen flex flex-col justify-end pb-16 lg:pb-20">
+
+                <!-- Gradient overlay from bottom to top -->
+                <div class="absolute inset-0 z-10 bg-gradient-to-t from-white via-white/50 to-transparent"></div>
+
+                <div class="relative z-20 h-screen flex flex-col justify-end pb-20 lg:pb-32">
                     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 w-full">
-                        <div class="flex justify-between items-end">
-                            <div class="flex-1 max-w-4xl">
-                                <h1
-                                    class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white leading-tight mb-4 lg:mb-6">
-                                    Hunian Ternyaman Hanya Di<br>
-                                    Atlas Property
-                                </h1>
-                                <p
-                                    class="text-lg sm:text-xl md:text-2xl lg:text-2xl text-white font-light leading-relaxed max-w-2xl">
-                                    Jl. Jend. Sudirman No.5-7, Purwokerto, Kabupaten Banyumas, Jawa Tengah 53116
-                                </p>
-                            </div>
-                            {{-- <div class="flex-shrink-0 ml-8">
-                                <a href="#"
-                                    class="group bg-white hover:bg-gray-100 text-gray-800 px-6 py-3 lg:px-8 lg:py-4 rounded-full flex items-center space-x-3 transition-all duration-300 transform hover:scale-105 shadow-xl font-semibold text-sm lg:text-base">
-                                    <svg class="w-4 h-4 lg:w-5 lg:h-5 rotate-45 group-hover:rotate-90 transition-transform duration-300"
-                                        fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M7 17L17 7M17 7H7m10 0v10" />
-                                    </svg>
-                                    <span>Explore Now</span>
-                                </a>
-                            </div> --}}
+                        <div class="max-w-4xl">
+                            <h1
+                                class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-black leading-tight mb-6">
+                                Hunian Untuk Semua
+                                <span class="block">Dari Purwokerto, Untuk Indonesia</span>
+                            </h1>
+
+                            <p
+                                class="text-lg sm:text-xl lg:text-2xl text-black/70 font-normal leading-relaxed max-w-3xl">
+                                Membangun hunian berkualitas di Jawa Tengah dengan standar transparansi,
+                                kualitas hunian modern, dan komitmen layanan jangka panjang.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -48,37 +42,24 @@
                         <!-- Left Content -->
                         <div class="flex flex-col">
                             <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
-                                Lebih Dekat Dengan Atlas Property
+                                Kenal Kami Lebih Dekat
                             </h2>
 
                             <p class="text-gray-600 text-base lg:text-lg leading-relaxed mb-6">
-                                Kami mengkhususkan diri dalam memberikan manajemen tanpa stres untuk properti residensial dan komersial. Dari penyaringan penyewa hingga pemeliharaan, kami menangani semuanya—jadi Anda tidak perlu.
+                                Modern, ramah keluarga, layanan nyata, dan tim profesional—dibangun dari Purwokerto.
                             </p>
 
                             <p class="text-gray-600 text-base lg:text-lg leading-relaxed mb-8">
-                                Didorong oleh hasrat kami terhadap real estat dan komitmen terhadap layanan, kami memberikan
-                                manajemen properti yang menjaga kepuasan penyewa dan memaksimalkan nilai investasi Anda.
+                                Kami merancang hunian yang fungsional dan nyaman untuk berbagai tahap kehidupan—dengan
+                                tata ruang efisien, cahaya alami, dan kesiapan konektivitas. Layanan purna jual kami
+                                sigap, dan tim lapangan bisa Anda temui.
                             </p>
 
                             <!-- Button sesuai referensi - satu kesatuan dengan border -->
                             <div class="flex items-start">
-                                <a href="/tentang-kami"
-                                    class="group inline-flex items-center bg-white hover:bg-gray-50 border-2 border-gray-200 hover:border-secondary-700 rounded-full px-2 py-2 pr-6 transition-all duration-300 shadow-sm hover:shadow-md">
-                                    <!-- Green Circle dengan Arrow di dalam button -->
-                                    <div
-                                        class="flex-shrink-0 w-10 h-10 bg-primary-800 group-hover:bg-secondary-700 rounded-full flex items-center justify-center transition-colors duration-300 mr-3">
-                                        <svg class="w-4 h-4 text-white transform group-hover:translate-x-0.5 transition-transform duration-300"
-                                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                                        </svg>
-                                    </div>
-
-                                    <!-- Text di dalam button yang sama -->
-                                    <span
-                                        class="text-gray-700 group-hover:text-gray font-medium text-base transition-colors duration-300">
-                                        Detail Selengkapnya
-                                    </span>
+                                <a href="https://wa.me/6285169934058"
+                                    class="relative z-10 hidden rounded-full border-2 border-black bg-[#DDC692] px-6 py-4 text-sm font-semibold text-black transition-all duration-300 hover:bg-[#C9B480] sm:inline-block">
+                                    Hubungi Kami
                                 </a>
                             </div>
                         </div>
@@ -87,8 +68,8 @@
                         <div class="relative">
                             <div class="relative">
                                 <div class="rounded-2xl overflow-hidden shadow-2xl">
-                                    <img src="{{ asset('storage/sites/arcadia-1.jpg') }}"
-                                        alt="Modern Property Management - Luxury Residential Building"
+                                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg"
+                                        alt="Atlas Arcadia"
                                         class="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700">
                                 </div>
 
@@ -102,113 +83,156 @@
             </section>
 
             {{-- Why Wonder Section --}}
-            <section class="py-16 lg:py-24 bg-primary-900 rounded-xl ">
+            <section class="py-16 lg:py-24 bg-[#042849] rounded-xl">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
                     <div class="text-center mb-12">
-                        
-                        <h2 class="text-4xl lg:text-5xl font-bold text-white">Kenapa Memilih Kami?</h2>
+                        <h2 class="text-4xl lg:text-5xl font-bold text-white">Prinsip Kerja Kami</h2>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {{-- Feature Cards --}}
-                        <div class="bg-white p-8 rounded-2xl shadow-lg text-center flex flex-col items-center">
-                            <div class="bg-primary-50 p-4 rounded-full mb-4">
-                                <svg class="w-8 h-8 text-primary-700" fill="none" stroke="currentColor"
-                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
-                                    </path>
-                                </svg>
+
+                    <!-- Grid Layout -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                        <!-- Card 1: Home for Everyone -->
+                        <div class="max-w-md mx-auto">
+                            <div
+                                class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer transform hover:scale-105 transition-all duration-300">
+                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1756519505/modern-fungsional_h1prfo.jpg"
+                                    alt="Arcadia Property" alt="Modern Houses"
+                                    class="absolute inset-0 w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+                                <div class="relative z-10 p-6 h-full flex flex-col justify-end">
+                                    <div>
+                                        <h3 class="text-2xl font-bold text-white mb-2">Modern & Fungsional</h3>
+                                        <p class="text-white text-sm mb-4 opacity-90">Solusi hunian terjangkau untuk
+                                            semua kalangan dengan kualitas terbaik dan lokasi strategis.</p>
+                                        <a href="https://wa.me/6285169934058" target="_blank" rel="noopener noreferrer"
+                                            class="relative z-10 hidden rounded-full border-2 border-black bg-[#DDC692] px-6 py-2 text-sm font-semibold text-black transition-all duration-300 hover:bg-[#C9B480] sm:inline-block">
+                                            Selengkapnya
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Legalitas Terjamin</h3>
-                            <p class="text-gray-600">Kami memastikan semua dokumen dan izin properti Anda lengkap dan sesuai hukum, sehingga Anda dapat tenang berinvestasi.</p>
-                            </p>
                         </div>
-                        <div class="bg-white p-8 rounded-2xl shadow-lg text-center flex flex-col items-center">
-                            <div class="bg-primary-50 p-4 rounded-full mb-4">
-                                <svg class="w-8 h-8 text-primary-700" fill="none" stroke="currentColor"
-                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4">
-                                    </path>
-                                </svg>
+
+                        <!-- Card 2: Modern & Fungsional -->
+                        <div class="max-w-md mx-auto">
+                            <div
+                                class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer transform hover:scale-105 transition-all duration-300">
+                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1756519505/home_for_everyone_xl8kqs.jpg"
+                                    alt="Arcadia Property" alt="Modern Houses"
+                                    class="absolute inset-0 w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+                                <div class="relative z-10 p-6 h-full flex flex-col justify-end">
+                                    <div>
+                                        <h3 class="text-2xl font-bold text-white mb-2">Home for Everyone</h3>
+                                        <p class="text-white text-sm mb-4 opacity-90">Opsi hunian untuk berbagai tahap
+                                            hidup—dari hunian mandiri, keluarga, hingga investasi.</p>
+                                        <a href="https://wa.me/6285169934058" target="_blank" rel="noopener noreferrer"
+                                            class="relative z-10 hidden rounded-full border-2 border-black bg-[#DDC692] px-6 py-2 text-sm font-semibold text-black transition-all duration-300 hover:bg-[#C9B480] sm:inline-block">
+                                            Selengkapnya
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Perawatan Properti Lengkap</h3>
-                            <p class="text-gray-600">Dari penyewaan hingga perbaikan, kami mengelola setiap detail di bawah satu atap.</p>
                         </div>
-                        <div class="bg-white p-8 rounded-2xl shadow-lg text-center flex flex-col items-center">
-                            <div class="bg-primary-50 p-4 rounded-full mb-4">
-                                <svg class="w-8 h-8 text-primary-700" fill="none" stroke="currentColor"
-                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
-                                    <path
-                                        d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-5.998 12.078 12.078 0 01.665-6.479L12 14z">
-                                    </path>
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-5.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222 4 2.222V20M12 12L8 9.778 4 12l4 2.222L12 12z">
-                                    </path>
-                                </svg>
+
+                        <!-- Card 3: Atlas Care & Service -->
+                        <div class="max-w-md mx-auto">
+                            <div
+                                class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer transform hover:scale-105 transition-all duration-300">
+                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1756544149/WhatsApp_Image_2025-08-30_at_11.32.35_apblwt.jpg"
+                                    alt="Arcadia Property" alt="Modern Houses"
+                                    class="absolute inset-0 w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+                                <div class="relative z-10 p-6 h-full flex flex-col justify-end">
+                                    <div>
+                                        <h3 class="text-2xl font-bold text-white mb-2">Membawa Inovasi</h3>
+                                        <p class="text-white text-sm mb-4 opacity-90">Inovasi terbaru di dunian properti
+                                            dalam bangunan hingga model kerjasama</p>
+                                        <a href="https://wa.me/6285169934058" target="_blank" rel="noopener noreferrer"
+                                            class="relative z-10 hidden rounded-full border-2 border-black bg-[#DDC692] px-6 py-2 text-sm font-semibold text-black transition-all duration-300 hover:bg-[#C9B480] sm:inline-block">
+                                            Selengkapnya
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Pengetahuan Ahli</h3>
-                            <p class="text-gray-600">Tim kami yang berpengalaman mengetahui pasar dan menawarkan solusi yang
-                                efektif.</p>
                         </div>
-                        <div class="bg-white p-8 rounded-2xl shadow-lg text-center flex flex-col items-center">
-                            <div class="bg-primary-50 p-4 rounded-full mb-4">
-                                <svg class="w-8 h-8 text-primary-700" fill="none" stroke="currentColor"
-                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4">
-                                    </path>
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M3 21v-2a4 4 0 014-4h10a4 4 0 014 4v2"></path>
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M12 11a4 4 0 110-8 4 4 0 010 8z"></path>
-                                </svg>
+
+                        <!-- Card 4: Tim Profesional -->
+                        <div class="max-w-md mx-auto">
+                            <div
+                                class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer transform hover:scale-105 transition-all duration-300">
+                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1756519503/Atlas_Care_-_Service_yzu5yq.jpg"
+                                    alt="Arcadia Property" alt="Modern Houses"
+                                    class="absolute inset-0 w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+                                <div class="relative z-10 p-6 h-full flex flex-col justify-end">
+                                    <div>
+                                        <h3 class="text-2xl font-bold text-white mb-2">Atlas Care & Service</h3>
+                                        <p class="text-white text-sm mb-4 opacity-90">Layanan yang hadir ketika
+                                            dibutuhkan, bukan sekadar janji.</p>
+                                        <a href="https://wa.me/6285169934058" target="_blank" rel="noopener noreferrer"
+                                            class="relative z-10 hidden rounded-full border-2 border-black bg-[#DDC692] px-6 py-2 text-sm font-semibold text-black transition-all duration-300 hover:bg-[#C9B480] sm:inline-block">
+                                            Selengkapnya
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Untuk Semua Ukuran Properti</h3>
-                            <p class="text-gray-600">Kami melayani baik portofolio besar maupun pemilik properti individu.</p>
                         </div>
-                        <div class="bg-white p-8 rounded-2xl shadow-lg text-center flex flex-col items-center">
-                            <div class="bg-primary-50 p-4 rounded-full mb-4">
-                                <svg class="w-8 h-8 text-primary-700" fill="none" stroke="currentColor"
-                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
-                                    </path>
-                                </svg>
+
+                        <!-- Card 5: Progres Transparan -->
+                        <div class="max-w-md mx-auto">
+                            <div
+                                class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer transform hover:scale-105 transition-all duration-300">
+                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1756519503/Tim_Profesional_fuor2g.jpg"
+                                    alt="Arcadia Property" alt="Modern Houses"
+                                    class="absolute inset-0 w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+                                <div class="relative z-10 p-6 h-full flex flex-col justify-end">
+                                    <div>
+                                        <h3 class="text-2xl font-bold text-white mb-2">Tim Profesional</h3>
+                                        <p class="text-white text-sm mb-4 opacity-90">Didukung dari kami yang sudah
+                                            berpengalaman dibidang properti Purwokerto dan sekitarnya.</p>
+                                        <a href="https://wa.me/6285169934058" target="_blank" rel="noopener noreferrer"
+                                            class="relative z-10 hidden rounded-full border-2 border-black bg-[#DDC692] px-6 py-2 text-sm font-semibold text-black transition-all duration-300 hover:bg-[#C9B480] sm:inline-block">
+                                            Selengkapnya
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Akses Online 24/7</h3>
-                            <p class="text-gray-600">Tetap kendalikan 24/7 dengan portal aman kami—lacak pembaruan,
-                                dokumen, dan pembayaran kapan saja.</p>
                         </div>
-                        <div class="bg-white p-8 rounded-2xl shadow-lg text-center flex flex-col items-center">
-                            <div class="bg-primary-50 p-4 rounded-full mb-4">
-                                <svg class="w-8 h-8 text-primary-700" fill="none" stroke="currentColor"
-                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
-                                    </path>
-                                </svg>
+
+                        <div class="max-w-md mx-auto">
+                            <div
+                                class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer transform hover:scale-105 transition-all duration-300">
+                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1756519503/Progres_Transparan_fs0sfp.jpg"
+                                    alt="Arcadia Property" alt="Modern Houses"
+                                    class="absolute inset-0 w-full h-full object-cover">
+                                <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+                                <div class="relative z-10 p-6 h-full flex flex-col justify-end">
+                                    <div>
+                                        <h3 class="text-2xl font-bold text-white mb-2">Progres Transparan</h3>
+                                        <p class="text-white text-sm mb-4 opacity-90">Perkembangan proyek yang bisa
+                                            diikuti dengan tanggal dan catatan singkat.</p>
+                                        <a href="https://wa.me/6285169934058" target="_blank" rel="noopener noreferrer"
+                                            class="relative z-10 hidden rounded-full border-2 border-black bg-[#DDC692] px-6 py-2 text-sm font-semibold text-black transition-all duration-300 hover:bg-[#C9B480] sm:inline-block">
+                                            Selengkapnya
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Portal Online</h3>
-                            <p class="text-gray-600">Akses semua informasi melalui portal online kami—perjanjian sewa,
-                                faktur, ikhtisar properti, dan banyak lagi.</p>
                         </div>
                     </div>
                 </div>
             </section>
 
             {{-- Our Services Section --}}
-            <section class="py-16 lg:py-24 bg-white">
+            <section class="py-16 lg:py-16 bg-white">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
                     <div class="flex justify-between items-end mb-12">
                         <div>
                             <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mt-2">Property Atlas</h2>
                         </div>
                         <div class="flex items-center gap-4">
-                            <p class="hidden lg:block max-w-md text-gray-600">
-                                Discover our full range of property management solutions tailored to your needs.
-                            </p>
                             <div class="flex gap-2">
                                 <button id="services-prev"
                                     class="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center text-gray-500 hover:bg-gray-100 transition disabled:opacity-50 disabled:cursor-not-allowed">
@@ -235,15 +259,15 @@
                             <div class="swiper-slide service-card-slide">
                                 <div
                                     class="service-card relative w-full h-full rounded-2xl overflow-hidden cursor-pointer">
-                                    <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Rental Management"
-                                        class="absolute inset-0 w-full h-full object-cover">
+                                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg"
+                                        alt="Rental Management" class="absolute inset-0 w-full h-full object-cover">
                                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/0"></div>
                                     <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
-                                        <h3 class="text-2xl font-bold text-white hover:text-secondary-800">Arcadia
-                                            Property</h3>
+                                        <h3 class="text-2xl font-bold text-white hover:text-secondary-800">Atlas
+                                            Arcadia</h3>
                                         <div
                                             class="service-details max-h-0 opacity-0 transition-all duration-500 ease-in-out mt-2">
-                                            <p class="text-gray-200">Jl. Loremipsum no.6 Purwokerto</p>
+                                            <p class="text-gray-200">Ledug, Purwokerto Jawa Tengah</p>
                                             <a href="/arcadia"
                                                 class="inline-flex items-center mt-4 font-semibold text-white-800 hover:text-primary-300">
                                                 Selengkapnya <svg class="w-4 h-4 ml-2" fill="none"
@@ -263,11 +287,11 @@
                                         class="absolute inset-0 w-full h-full object-cover">
                                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/0"></div>
                                     <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
-                                        <h3 class="text-2xl font-bold text-white hover:text-secondary-800">Casadia
-                                            Property</h3>
+                                        <h3 class="text-2xl font-bold text-white hover:text-secondary-800">Atlas
+                                            Casadia</h3>
                                         <div
                                             class="service-details max-h-0 opacity-0 transition-all duration-500 ease-in-out mt-2">
-                                            <p class="text-gray-200">Jl. Loremipsum no.6 Purwokerto</p>
+                                            <p class="text-gray-200">Ledug, Purwokerto Jawa Tengah</p>
                                             <a href="#"
                                                 class="inline-flex items-center mt-4 font-semibold text-white-800 hover:text-primary-300">
                                                 Selengkapnya <svg class="w-4 h-4 ml-2" fill="none"
@@ -287,11 +311,11 @@
                                         class="absolute inset-0 w-full h-full object-cover">
                                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/0"></div>
                                     <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
-                                        <h3 class="text-2xl font-bold text-white hover:text-secondary-800">Magestic
-                                            Property</h3>
+                                        <h3 class="text-2xl font-bold text-white hover:text-secondary-800">Atlas
+                                            Majestic</h3>
                                         <div
                                             class="service-details max-h-0 opacity-0 transition-all duration-500 ease-in-out mt-2">
-                                            <p class="text-gray-200">Jl. Loremipsum no.6 Purwokerto</p>
+                                            <p class="text-gray-200">Ledug, Purwokerto Jawa Tengah</p>
                                             <a href="#"
                                                 class="inline-flex items-center mt-4 font-semibold text-white-800 hover:text-primary-300">
                                                 Selengkapnya <svg class="w-4 h-4 ml-2" fill="none"
@@ -307,8 +331,8 @@
                             <div class="swiper-slide service-card-slide">
                                 <div
                                     class="service-card relative w-full h-full rounded-2xl overflow-hidden cursor-pointer">
-                                    <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Rental Management"
-                                        class="absolute inset-0 w-full h-full object-cover">
+                                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg"
+                                        alt="Rental Management" class="absolute inset-0 w-full h-full object-cover">
                                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/0"></div>
                                     <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
                                         <h3 class="text-2xl font-bold text-white hover:text-secondary-800">Soon
@@ -325,6 +349,463 @@
                 </div>
             </section>
 
+            <section class="py-16 lg:py-24 bg-white">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+                    <div class="flex justify-between items-end mb-12">
+                        <div>
+                            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900">Perkembangan Progress</h2>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="flex gap-2">
+                                <button id="progress-prev"
+                                    class="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center text-gray-500 hover:bg-gray-100 transition disabled:opacity-50 disabled:cursor-not-allowed">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M15 19l-7-7 7-7"></path>
+                                    </svg>
+                                </button>
+                                <button id="progress-next"
+                                    class="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center text-gray-500 hover:bg-gray-100 transition disabled:opacity-50 disabled:cursor-not-allowed">
+                                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Progress Container -->
+                    <div class="max-w-6xl mx-auto">
+                        <!-- Progress Rows Container -->
+                        <div class="space-y-8">
+
+                            <!-- Row 1: Atlas Arcadia -->
+                            <div class="flex gap-6">
+                                <!-- Main Property Card -->
+                                <div
+                                    class="bg-gray-100 rounded-xl border-2 border-gray-300 aspect-[4/3] w-80 flex-shrink-0 flex flex-col">
+                                    <div class="flex-1 overflow-hidden rounded-t-xl">
+                                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1755847807/arcadia-1_u7guoe.jpg"
+                                            alt="Atlas Arcadia" class="w-full h-full object-cover">
+                                    </div>
+                                    <div class="p-4">
+                                        <h3 class="font-bold text-lg text-gray-900">Atlas Arcadia</h3>
+                                        <p class="text-gray-600 text-sm">Purwokerto, Ledug</p>
+                                    </div>
+                                </div>
+
+                                <!-- Scrollable Progress Cards -->
+                                <div class="flex-1 overflow-hidden">
+                                    <div class="flex gap-4 overflow-x-auto pb-4 scrollbar-hide"
+                                        style="scroll-behavior: smooth;">
+                                        <div
+                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                            <div class="p-1 border-b border-gray-200">
+                                                <span class="text-sm ml-4 font-medium text-gray-700">Mei 2025</span>
+                                            </div>
+                                            <button type="button"
+                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544154/WhatsApp_Image_2025-08-30_at_12.47.25_tcg83p.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544154/WhatsApp_Image_2025-08-30_at_12.47.25_tcg83p.jpg"
+                                                    alt="Progress Image" class="w-full h-full object-cover">
+                                            </button>
+                                        </div>
+
+                                        <div
+                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                            <div class="p-1 border-b border-gray-200">
+                                                <span class="text-sm ml-4 font-medium text-gray-700">Juni 2025</span>
+                                            </div>
+                                            <button type="button"
+                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.24_iwkagk.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.24_iwkagk.jpg"
+                                                    alt="Progress Image" class="w-full h-full object-cover">
+                                            </button>
+                                        </div>
+
+                                        <div
+                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                            <div class="p-1 border-b border-gray-200">
+                                                <span class="text-sm ml-4 font-medium text-gray-700">Juli 2025</span>
+                                            </div>
+                                            <button type="button"
+                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544151/WhatsApp_Image_2025-08-30_at_12.47.23_pzq9rr.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544151/WhatsApp_Image_2025-08-30_at_12.47.23_pzq9rr.jpg"
+                                                    alt="Progress Image" class="w-full h-full object-cover">
+                                            </button>
+                                        </div>
+
+                                        <div
+                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                            <div class="p-1 border-b border-gray-200">
+                                                <span class="text-sm ml-4 font-medium text-gray-700">Agustus
+                                                    2025</span>
+                                            </div>
+                                            <button type="button"
+                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.38_m45t7j.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.38_m45t7j.jpg"
+                                                    alt="Progress Image" class="w-full h-full object-cover">
+                                            </button>
+                                        </div>
+
+                                        <div
+                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                            <div class="p-1 border-b border-gray-200">
+                                                <span class="text-sm ml-4 font-medium text-gray-700">Agustus
+                                                    2025</span>
+                                            </div>
+                                            <button type="button"
+                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.25_1_st3fnl.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.25_1_st3fnl.jpg"
+                                                    alt="Progress Image" class="w-full h-full object-cover">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Row 2: Atlas Casavida -->
+                            <div class="flex gap-6">
+                                <!-- Main Property Card -->
+                                <div
+                                    class="bg-gray-100 rounded-xl border-2 border-gray-300 aspect-[4/3] w-80 flex-shrink-0 flex flex-col">
+                                    <div class="flex-1 overflow-hidden rounded-t-xl">
+                                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1755847808/hero-bg_okioxm.jpg"
+                                            alt="Atlas Arcadia" class="w-full h-full object-cover">
+                                    </div>
+                                    <div class="p-4">
+                                        <h3 class="font-bold text-lg text-gray-900">Atlas Casavida</h3>
+                                        <p class="text-gray-600 text-sm">Purwokerto, Ledug</p>
+                                    </div>
+                                </div>
+
+                                <!-- Scrollable Progress Cards -->
+                                <div class="flex-1 overflow-hidden">
+                                    <div class="flex gap-4 overflow-x-auto pb-4 scrollbar-hide"
+                                        style="scroll-behavior: smooth;">
+                                        <div
+                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                            <div class="p-1 border-b border-gray-200">
+                                                <span class="text-sm ml-4 font-medium text-gray-700">April 2025</span>
+                                            </div>
+                                            <button type="button"
+                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.19_nkmp1k.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.19_nkmp1k.jpg"
+                                                    alt="Progress Image" class="w-full h-full object-cover">
+                                            </button>
+                                        </div>
+
+                                        <div
+                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                            <div class="p-1 border-b border-gray-200">
+                                                <span class="text-sm ml-4 font-medium text-gray-700">Mei 2025</span>
+                                            </div>
+                                            <button type="button"
+                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544150/WhatsApp_Image_2025-08-30_at_11.37.20_1_tqjo75.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544150/WhatsApp_Image_2025-08-30_at_11.37.20_1_tqjo75.jpg"
+                                                    alt="Progress Image" class="w-full h-full object-cover">
+                                            </button>
+                                        </div>
+
+                                        <div
+                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                            <div class="p-1 border-b border-gray-200">
+                                                <span class="text-sm ml-4 font-medium text-gray-700">Juni 2025</span>
+                                            </div>
+                                            <button type="button"
+                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544150/WhatsApp_Image_2025-08-30_at_11.37.20_tn7e66.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544150/WhatsApp_Image_2025-08-30_at_11.37.20_tn7e66.jpg"
+                                                    alt="Progress Image" class="w-full h-full object-cover">
+                                            </button>
+                                        </div>
+
+                                        <div
+                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                            <div class="p-1 border-b border-gray-200">
+                                                <span class="text-sm ml-4 font-medium text-gray-700">Juli 2025</span>
+                                            </div>
+                                            <button type="button"
+                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.19_1_hyvw1f.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.19_1_hyvw1f.jpg"
+                                                    alt="Progress Image" class="w-full h-full object-cover">
+                                            </button>
+                                        </div>
+
+                                        <div
+                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                            <div class="p-1 border-b border-gray-200">
+                                                <span class="text-sm ml-4 font-medium text-gray-700">Agustus
+                                                    2025</span>
+                                            </div>
+                                            <button type="button"
+                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.18_wydsyn.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.18_wydsyn.jpg"
+                                                    alt="Progress Image" class="w-full h-full object-cover">
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Row 3: Atlas Majestic -->
+                            <div class="flex gap-6">
+                                <!-- Main Property Card -->
+                                <div
+                                    class="bg-gray-100 rounded-xl border-2 border-gray-300 aspect-[4/3] w-80 flex-shrink-0 flex flex-col">
+                                    <div class="flex-1 overflow-hidden rounded-t-xl">
+                                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1755847813/majestic_dazdbg.jpg"
+                                            alt="Atlas Arcadia" class="w-full h-full object-cover">
+                                    </div>
+                                    <div class="p-4">
+                                        <h3 class="font-bold text-lg text-gray-900">Atlas Majestic</h3>
+                                        <p class="text-gray-600 text-sm">Purwokerto, Wiradadi</p>
+                                    </div>
+                                </div>
+
+                                <!-- Scrollable Progress Cards -->
+                                <div class="flex-1 overflow-hidden">
+                                    <div class="flex gap-4 overflow-x-auto pb-4 scrollbar-hide"
+                                        style="scroll-behavior: smooth;">
+                                        <div
+                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                            <div class="p-1 border-b border-gray-200">
+                                                <span class="text-sm ml-4 font-medium text-gray-700">April 2025</span>
+                                            </div>
+                                            <button type="button"
+                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.14_j613bc.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.14_j613bc.jpg"
+                                                    alt="Progress Image" class="w-full h-full object-cover">
+                                            </button>
+                                        </div>
+
+                                        <div
+                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                            <div class="p-1 border-b border-gray-200">
+                                                <span class="text-sm ml-4 font-medium text-gray-700">Mei 2025</span>
+                                            </div>
+                                            <button type="button"
+                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.16_xigcgd.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.16_xigcgd.jpg"
+                                                    alt="Progress Image" class="w-full h-full object-cover">
+                                            </button>
+                                        </div>
+
+                                        <div
+                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                            <div class="p-1 border-b border-gray-200">
+                                                <span class="text-sm ml-4 font-medium text-gray-700">Juni 2025</span>
+                                            </div>
+                                            <button type="button"
+                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.16_1_wxkftv.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.16_1_wxkftv.jpg"
+                                                    alt="Progress Image" class="w-full h-full object-cover">
+                                            </button>
+                                        </div>
+
+                                        <div
+                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                            <div class="p-1 border-b border-gray-200">
+                                                <span class="text-sm ml-4 font-medium text-gray-700">Juli 2025</span>
+                                            </div>
+                                            <button type="button"
+                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.15_1_a81vrg.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.15_1_a81vrg.jpg"
+                                                    alt="Progress Image" class="w-full h-full object-cover">
+                                            </button>
+                                        </div>
+
+                                        <div
+                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                            <div class="p-1 border-b border-gray-200">
+                                                <span class="text-sm ml-4 font-medium text-gray-700">Agustus
+                                                    2025</span>
+                                            </div>
+                                            <button type="button"
+                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.15_hqzjrw.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.15_hqzjrw.jpg"
+                                                    alt="Progress Image" class="w-full h-full object-cover">
+                                            </button>
+                                        </div>
+
+                                        {{-- <div
+                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                            <div class="p-1 border-b border-gray-200">
+                                                <span class="text-sm ml-4 font-medium text-gray-700">Agustus 2025</span>
+                                            </div>
+                                            <button type="button"
+                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.18_wydsyn.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.18_wydsyn.jpg"
+                                                    alt="Progress Image" class="w-full h-full object-cover">
+                                            </button>
+                                        </div> --}}
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <div id="imagePreviewModal"
+                class="fixed inset-0 bg-black/70 hidden items-center justify-center z-[100] p-4">
+                <div class="relative max-w-5xl w-full">
+                    <button type="button"
+                        class="absolute -top-3 -right-3 w-10 h-10 rounded-full bg-white/90 text-black grid place-items-center"
+                        data-close-modal>&times;</button>
+                    <img id="imagePreviewImg" src="" alt="Preview"
+                        class="w-full h-auto rounded-2xl shadow-2xl">
+                </div>
+            </div>
+
+            <!-- Promotional Page Break Section -->
+            <section class="py-16 lg:py-24 bg-white">
+                <!-- Promotional Page Break - Full Width -->
+                {{-- <div class="bg-gradient-to-r from-yellow-400 to-yellow-500 p-8 text-center mb-8">
+                    <h2 class="text-2xl font-bold text-gray-800 tracking-wide">PROMOTIONAL PAGE BREAK</h2>
+                </div> --}}
+
+                <!-- Proses Pembelian Section with Container -->
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+                    <div class="flex justify-between items-end mb-8">
+                        <h2 class="text-4xl lg:text-5xl font-bold text-gray-900">Proses Pembelian</h2>
+                    </div>
+                    <!-- content steps -->
+                    <div class="bg-gray-50 rounded-xl border border-gray-200 p-8">
+                        <div class="space-y-6">
+                            <div class="flex items-start gap-4">
+                                <div
+                                    class="bg-black text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold flex-shrink-0">
+                                    1
+                                </div>
+                                <div class="pt-1">
+                                    <h3 class="font-bold text-lg text-gray-900 mb-1">Booking</h3>
+                                    <p class="text-gray-600 text-sm">Tanda jadi + form pemesanan</p>
+                                </div>
+                                {{-- <a href="#"
+                                    class="relative z-10 hidden lg:ml-20 rounded-full border-2 border-black bg-[#DDC692] px-6 py-2 text-sm font-semibold text-black transition-all duration-300 hover:bg-[#C9B480] sm:inline-block">
+                                    Hubungi Kami
+                                </a> --}}
+                            </div>
+
+                            <!-- Step 2: DP / KPR -->
+                            <div class="flex items-start gap-4">
+                                <div
+                                    class="bg-black text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold flex-shrink-0">
+                                    2
+                                </div>
+                                <div class="pt-1">
+                                    <h3 class="font-bold text-lg text-gray-900 mb-1">DP / KPR</h3>
+                                    <p class="text-gray-600 text-sm">Skema sesuai pilihan (cash bertahap/KPR)</p>
+                                </div>
+                            </div>
+
+                            <!-- Step 3: Akad -->
+                            <div class="flex items-start gap-4">
+                                <div
+                                    class="bg-black text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold flex-shrink-0">
+                                    3
+                                </div>
+                                <div class="pt-1">
+                                    <h3 class="font-bold text-lg text-gray-900 mb-1">Akad</h3>
+                                    <p class="text-gray-600 text-sm">Dokumen legal & notaris/PPAT</p>
+                                </div>
+                            </div>
+
+                            <!-- Step 4: Progress Payment -->
+                            <div class="flex items-start gap-4">
+                                <div
+                                    class="bg-black text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold flex-shrink-0">
+                                    4
+                                </div>
+                                <div class="pt-1">
+                                    <h3 class="font-bold text-lg text-gray-900 mb-1">Progress Payment</h3>
+                                    <p class="text-gray-600 text-sm">Jika ada (berdasar milestone konstruksi)</p>
+                                </div>
+                            </div>
+
+                            <!-- Step 5: Serah Terima -->
+                            <div class="flex items-start gap-4">
+                                <div
+                                    class="bg-black text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold flex-shrink-0">
+                                    5
+                                </div>
+                                <div class="pt-1">
+                                    <h3 class="font-bold text-lg text-gray-900 mb-1">Serah Terima</h3>
+                                    <p class="text-gray-600 text-sm">QC bersama + dokumen garansi</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="py-16 lg:py-24 bg-[#042849] relative overflow-hidden rounded-t-xl">
+                <!-- Background Pattern -->
+                <div class="absolute inset-0 opacity-10">
+                    <div
+                        class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/5 to-transparent transform -skew-y-1">
+                    </div>
+                    <div
+                        class="absolute bottom-0 right-0 w-full h-full bg-gradient-to-l from-transparent via-white/5 to-transparent transform skew-y-1">
+                    </div>
+                </div>
+
+                <div class="relative z-10">
+                    <!-- Section Header -->
+                    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 text-center mb-12">
+                        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+                            Partner Terpercaya Kami
+                        </h2>
+                        <p class="text-lg text-white/80 max-w-2xl mx-auto">
+                            Bekerja sama dengan institusi keuangan dan partner terbaik untuk memberikan solusi properti
+                            terpercaya
+                        </p>
+                    </div>
+
+                    <!-- Marquee Container -->
+                    <div class="marquee-container">
+                        <div class="marquee-content marquee">
+                            <!-- First Set of Logos -->
+                            <div class="partner-logo">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Bank_Syariah_Indonesia.svg"
+                                    alt="BSI Bank" />
+                            </div>
+                            <div class="partner-logo">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Bank_Mandiri_logo_2016.svg"
+                                    alt="Bank Mandiri" />
+                            </div>
+                            <div class="partner-logo">
+                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756517337/BNI_2004_szmbbk.svg"
+                                    alt="Bank BNI" />
+                            </div>
+                            <div class="partner-logo">
+                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756517614/180886_jdv3oh.svg"
+                                    alt="Mowilex" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
             {{-- Popular Articles Section --}}
             <section class="py-16 lg:py-24 bg-white">
                 <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-12">
@@ -337,7 +818,7 @@
                         {{-- View All Button sesuai referensi --}}
                         <div class="flex items-center gap-4">
                             <a href="#"
-                                class="group bg-primary-800 hover:bg-primary-700 text-white px-6 py-3 rounded-full inline-flex items-center space-x-3 transition-all duration-300 transform hover:scale-105 font-semibold text-sm">
+                                class="group bg-[#063663] text-white px-6 py-3 rounded-full inline-flex items-center space-x-3 transition-all duration-300 transform hover:scale-105 font-semibold text-sm">
                                 <span>Lihat Semua</span>
                                 <svg class="w-4 h-4 group-hover:translate-x-0.5 transition-transform duration-300"
                                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -377,8 +858,8 @@
                                                 {{-- Learn More Button dengan background rounded --}}
                                                 <div class="mt-2">
                                                     <a href="{{ route('blog.show', $post->slug) }}"
-                                                        class="group inline-flex items-center bg-gray-50 hover:bg-green-800 text-gray-700 hover:text-white px-4 py-2 rounded-full transition-all duration-300 font-medium text-sm">
-                                                        <span>Learn More</span>
+                                                        class="group inline-flex items-center bg-gray-50 hover:bg-secondary-900 text-primary-900 hover:text-white px-4 py-2 rounded-full transition-all duration-300 font-medium text-sm">
+                                                        <span>Baca Selengkapnya</span>
                                                         <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300"
                                                             fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -397,7 +878,7 @@
             </section>
 
             {{-- Testimonials Section --}}
-            <section class="py-16 lg:py-24 bg-white">
+            {{-- <section class="py-16 lg:py-24 bg-white">
                 <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
                     <!-- Container dengan background rounded sesuai referensi -->
                     <div class="bg-gray-50 rounded-3xl p-6 sm:p-8 lg:p-16">
@@ -566,7 +1047,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> --}}
         </main>
     </div>
 
@@ -674,6 +1155,67 @@
                 }
             });
         });
+        document.addEventListener('DOMContentLoaded', function() {
+            const content = document.querySelector('.marquee-content');
+            if (!content) return;
+
+            function setupMarquee() {
+                if (content.dataset.cloned) return;
+                content.innerHTML += content.innerHTML;
+                content.dataset.cloned = 'true';
+            }
+
+            const imgs = content.querySelectorAll('img');
+            let loadedCount = 0;
+
+            function checkAllLoaded() {
+                loadedCount++;
+                if (loadedCount === imgs.length) {
+                    setupMarquee();
+                }
+            }
+
+            imgs.forEach(img => {
+                if (img.complete) {
+                    checkAllLoaded();
+                } else {
+                    img.addEventListener('load', checkAllLoaded);
+                }
+            });
+        });
+
+        //imageModal
+        document.addEventListener('DOMContentLoaded', () => {
+            const modal = document.getElementById('imagePreviewModal');
+            if (!modal) return;
+            const modalImg = document.getElementById('imagePreviewImg');
+            const closeBtn = modal.querySelector('[data-close-modal]');
+            const open = (src) => {
+                modalImg.src = src;
+                modal.classList.remove('hidden');
+                modal.classList.add('flex');
+                document.body.classList.add('overflow-hidden');
+            };
+            const close = () => {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+                modalImg.src = '';
+                document.body.classList.remove('overflow-hidden');
+            };
+            document.addEventListener('click', (e) => {
+                const trigger = e.target.closest('[data-preview-src]');
+                if (trigger) {
+                    e.preventDefault();
+                    open(trigger.getAttribute('data-preview-src'));
+                } else if (e.target === modal) {
+                    close();
+                }
+            });
+            closeBtn?.addEventListener('click', close);
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && !modal.classList.contains('hidden')) close();
+            });
+        });
     </script>
     <style>
         /* Custom style untuk slider services */
@@ -706,6 +1248,69 @@
             .services-slider .swiper-slide.expanded {
                 width: 80%;
             }
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(0%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .marquee-container {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+        }
+
+        .marquee-content {
+            display: flex;
+            align-items: center;
+            gap: 4rem;
+            animation: marquee 20s linear infinite;
+            white-space: nowrap;
+        }
+
+        .marquee-content:hover {
+            animation-play-state: paused;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        .partner-logo {
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            height: 80px;
+            width: 200px;
+            transition: transform .25s ease, background .25s ease;
+        }
+
+        .partner-logo:hover {
+            transform: scale(1.05);
+            background: rgba(255, 255, 255, 0.12);
+        }
+
+        .partner-logo img {
+            max-height: 60px;
+            max-width: 160px;
+            object-fit: contain;
+            filter: brightness(0) invert(1);
         }
     </style>
 </x-superduper.main>

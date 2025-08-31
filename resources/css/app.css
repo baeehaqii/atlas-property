@@ -65,17 +65,11 @@
 }
 /* Explicitly ensure transparent background on desktop */
 @media (min-width: 1024px) {
-    .menu-block {
-        background-color: transparent !important;
-    }
-
     .menu-block .nav-link-item {
-        @apply text-white hover:text-primary-100;
+        color: #111827;
     }
-
-    /* Make sure dropdown menus have the right background */
-    .menu-block .sub-menu {
-        @apply bg-white dark:bg-primary-800;
+    .menu-block .nav-link-item:hover {
+        color: #2D2B8D;
     }
 }
 

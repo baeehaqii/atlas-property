@@ -24,6 +24,9 @@ Route::get('/', function () {
     $banners = Content::active()->orderBy('sort')->get();
     return view('components.superduper.pages.home', compact('posts', 'banners'));
 })->name('home');
+Route::get('/home-preview', function () {
+    return view('components.superduper.pages.home');
+})->name('home.preview');
 
 Route::get('/blog', BlogList::class)->name('blog');
 
@@ -34,10 +37,17 @@ Route::get('/contact-us', ContactUs::class)->name('contact-us');
 Route::get('/tentang-kami', function () {
     return view('components.superduper.pages.about');
 });
+Route::get('/about-preview', function () {
+    return view('components.superduper.pages.about');
+})->name('about.preview');
 
 Route::get('/arcadia', function () {
     return view('components.superduper.pages.arcadia');
 })->name('arcadia');
+
+Route::get('/arcadia-preview', function () {
+    return view('components.superduper.pages.arcadia');
+})->name('arcadia.preview');
 
 Route::get('/privacy-policy', function () {
     return view('components.superduper.pages.coming-soon', ['page_type' => 'privacy']);
@@ -55,12 +65,12 @@ Route::post('/contact', [App\Http\Controllers\ContactController::class, 'submit'
     ->name('contact.submit');
 
 // TODO: Create actual blog preview component
-Route::post('/blog-preview', function() {
+Route::post('/blog-preview', function () {
     // Implementation pending
 })->name('blog.preview');
 
-Route::get('impersonate/leave', function() {
-    if(!app(ImpersonateManager::class)->isImpersonating()) {
+Route::get('impersonate/leave', function () {
+    if (!app(ImpersonateManager::class)->isImpersonating()) {
         return redirect('/');
     }
 

@@ -28,6 +28,9 @@ class ContentResource extends Resource
 
     protected static int $globalSearchResultsLimit = 10;
 
+    //hanya muncul ketika role superadmin
+    protected static ?string $role = 'superadmin';
+
     protected static ?int $navigationSort = -2;
     protected static ?string $navigationIcon = 'heroicon-o-photo';
 
@@ -461,4 +464,8 @@ class ContentResource extends Resource
     {
         return 'gray';
     }
+    public static function shouldRegisterNavigation(): bool
+{
+    return auth()->user()?->hasRole('superadmin');
+}
 }
