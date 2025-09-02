@@ -19,7 +19,7 @@
 
             <!-- Navigation Links -->
             <div class="md:col-span-2">
-                <h3 class="font-bold text-white mb-4">Navigasiiir</h3>
+                <h3 class="font-bold text-white mb-4">Navigasiiirr</h3>
                 <ul class="space-y-2 text-sm">
                     <li><a href="#" class="hover:text-white">Home</a></li>
                     <li><a href="#" class="hover:text-white">Tentang Kami</a></li>
