@@ -1,8 +1,10 @@
+@section('title', 'Atlas Arcadia')
+
 <x-superduper.main>
     <div class="relative min-h-screen bg-gradient-to-br from-amber-50 to-stone-100 overflow-hidden">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0">
-            <img src="{{ asset('storage/sites/hero.jpeg') }}" alt="Arcadia Architecture"
+            <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1755847807/arcadia-1_u7guoe.jpg" alt="Arcadia Architecture"
                 class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-black bg-opacity-40"></div>
             <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
@@ -164,7 +166,7 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                     <!-- Left - Image -->
                     <div class="p-8">
-                        <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Atlas Arcadia Property Investment"
+                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1755847807/arcadia-1_u7guoe.jpg" alt="Atlas Arcadia Property Investment"
                             class="w-full h-auto rounded-lg">
                     </div>
 
@@ -433,7 +435,7 @@
                         alt="Arcadia" class="mb-6 w-full h-auto max-w-sm md:max-w-md mx-auto lg:mx-0">
 
                     <p class="text-white/90 text-base lg:text-lg xl:text-xl leading-relaxed mb-6 lg:mb-8 font-light">
-                        Arcadia Property adalah sebuah properti yang mengusung konsep hunian modern dengan sentuhan
+                        Atlas Arcadia adalah sebuah properti yang mengusung konsep hunian modern dengan sentuhan
                         arsitektur yang elegan dan fungsional.
                     </p>
 
@@ -450,7 +452,7 @@
 
             {{-- Right Column - Image --}}
             <div class="relative overflow-hidden">
-                <img src="{{ asset('storage/sites/arcadia-1.jpg') }}"
+                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1755847807/arcadia-1_u7guoe.jpg"
                     alt="Modern residential complex showcasing architectural excellence"
                     class="w-full h-full object-cover">
 
@@ -1017,3 +1019,4 @@
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'instagram-wjs'));
 </script>
+

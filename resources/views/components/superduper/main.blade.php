@@ -162,6 +162,7 @@
     @endif
 
     @yield('meta')
+    <title>@yield('title', 'Atlas Property')</title>
 
     <title>{{ $title }}</title>
 

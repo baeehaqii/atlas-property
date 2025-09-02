@@ -1,0 +1,27 @@
+name: Deploy to aaPanel VPS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.AAPANEL_HOST }}
+          username: ${{ secrets.AAPANEL_USER }}
+          key: ${{ secrets.AAPANEL_SSH_KEY }}
+          port: 25207
+          script: |
+            cd /www/wwwroot/atlasproperty.co.id
+            git pull origin main
+            php artisan migrate
+            php artisan optimize:clear
+            php artisan optimize
