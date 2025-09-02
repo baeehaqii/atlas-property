@@ -19,7 +19,7 @@ jobs:
           host: ${{ secrets.AAPANEL_HOST }}
           username: ${{ secrets.AAPANEL_USER }}
           key: ${{ secrets.AAPANEL_SSH_KEY }}
-          port: 25207
+          port: 22
           script: |
             cd /www/wwwroot/atlasproperty.co.id
             git pull origin main
