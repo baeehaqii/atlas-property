@@ -11,15 +11,17 @@ jobs:
     environment: Production
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Deploy to Server
-        uses: appleboy/ssh-action@v0.1.10
+        uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.AAPANEL_HOST }}
           username: ${{ secrets.AAPANEL_USER }}
           key: ${{ secrets.AAPANEL_SSH_KEY }}
           port: 22
+          debug: true
+          script_stop: true
           script: |
             cd /www/wwwroot/atlasproperty.co.id
             git pull origin main
