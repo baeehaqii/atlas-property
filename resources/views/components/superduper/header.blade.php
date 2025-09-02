@@ -23,11 +23,12 @@
         <div class="menu-block-wrapper lg:static lg:z-[9998]">
             <div class="menu-overlay fixed inset-0 z-40 bg-primary-900/70 backdrop-blur-sm lg:hidden"
                 style="display: none;"></div>
-            <nav class="menu-block fixed bottom-0 right-0 top-0 z-50 w-[280px] transform overflow-y-auto bg-white shadow-2xl transition-transform duration-300 translate-x-full md:w-[320px] lg:static lg:w-auto lg:translate-x-0 lg:bg-transparent lg:shadow-none lg:overflow-visible"
+            <nav class="menu-block fixed bottom-0 right-0 top-0 z-50 w-[280px] transform overflow-y-auto shadow-2xl transition-transform duration-300 translate-x-full md:w-[320px] lg:static lg:w-auto lg:translate-x-0 lg:bg-transparent lg:shadow-none lg:overflow-visible"
+    style="background-color: #042849;"
                 id="append-menu-header">
                 <!-- Mobile Menu Header -->
-                <div class="flex items-center justify-between p-4 lg:hidden">
-                    <div class="go-back flex items-center text-black">
+                <div class="flex items-center justify-between p-4 lg:hidden border-b border-white/20">
+                    <div class="go-back flex items-center text-white">
                         <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 h-5 w-5" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -35,8 +36,8 @@
                         </svg>
                         <span>Back</span>
                     </div>
-                    <div class="current-menu-title font-medium text-black"></div>
-                    <div class="mobile-menu-close cursor-pointer text-2xl text-black">&times;
+                    <div class="current-menu-title font-medium text-white"></div>
+                    <div class="mobile-menu-close cursor-pointer text-2xl text-white">&times;
                     </div>
                 </div>
 
@@ -117,7 +118,7 @@
                     @endif
                 </ul>
                 
-                <!-- Mobile Menu (kept separate for clarity) -->
+                <!-- Mobile Menu -->
                 <ul class="site-menu-main block p-4 text-lg lg:hidden">
                     @if ($menu)
                         @foreach ($menu->menuItems as $index => $item)
@@ -125,23 +126,24 @@
                                 $hasChildren = count($item->children) > 0;
                                 $menuId = 'mobile-submenu-' . ($index + 1);
                             @endphp
-
                             <li class="nav-item mb-3 {{ $hasChildren ? 'nav-item-has-children' : '' }}">
                                 <a href="{{ $item->url }}"
-                                    class="nav-link-item flex items-center justify-between rounded-lg py-2 font-extrabold text-black transition-colors hover:text-primary-700 {{ $hasChildren ? 'drop-trigger' : '' }}"
+                                    class="nav-link-item flex items-center justify-between rounded-lg py-3 px-4 font-extrabold text-white transition-colors hover:bg-white/10 hover:text-[#DDC692] {{ $hasChildren ? 'drop-trigger' : '' }}"
                                     @if ($item->target) target="{{ $item->target }}" @endif>
                                     <span>{{ $item->title }}</span>
                                     @if ($hasChildren)
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 h-4 w-4 lg:h-5 lg:w-5 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 h-4 w-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                                         </svg>
                                     @endif
                                 </a>
                                 @if ($hasChildren)
-                                    <ul class="sub-menu mt-2 pl-4" id="{{ $menuId }}">
+                                    <ul class="sub-menu mt-2 pl-4 bg-white/5 rounded-xl" id="{{ $menuId }}">
                                         @foreach ($item->children as $childItem)
                                             <li class="sub-menu--item mb-2">
-                                                <a href="{{ $childItem->url }}" class="block rounded px-3 py-2 text-black transition-colors hover:bg-gray-100 hover:text-primary-700" @if ($childItem->target) target="{{ $childItem->target }}" @endif>
+                                                <a href="{{ $childItem->url }}" 
+                                                   class="block rounded px-3 py-2 text-white/80 transition-colors hover:bg-white/10 hover:text-white" 
+                                                   @if ($childItem->target) target="{{ $childItem->target }}" @endif>
                                                     {{ $childItem->title }}
                                                 </a>
                                             </li>
@@ -182,20 +184,18 @@
         document.addEventListener('DOMContentLoaded', function() {
             const menuTrigger = document.querySelector('.mobile-menu-trigger');
             const menuOverlay = document.querySelector('.menu-overlay');
-            const menuBlock = document.querySelector('.menu-block nav'); // Target the nav element
+            const menuBlock = document.querySelector('.menu-block');
             const menuClose = document.querySelector('.mobile-menu-close');
             const dropTriggers = document.querySelectorAll('.drop-trigger');
             const goBack = document.querySelector('.go-back');
             const currentMenuTitle = document.querySelector('.current-menu-title');
 
-            // Function to toggle mobile menu
             function toggleMenu() {
                 const nav = menuBlock;
                 nav.classList.toggle('translate-x-full');
                 document.body.classList.toggle('overflow-hidden');
                 menuOverlay.style.display = nav.classList.contains('translate-x-full') ? 'none' : 'block';
 
-                // Animate hamburger to X
                 const spans = menuTrigger.querySelectorAll('span');
                 if (!nav.classList.contains('translate-x-full')) {
                     spans[0].classList.add('rotate-45', 'translate-y-2');
@@ -212,7 +212,6 @@
             if (menuOverlay) menuOverlay.addEventListener('click', toggleMenu);
             if (menuClose) menuClose.addEventListener('click', toggleMenu);
 
-            // Desktop hover functionality
             function setupDesktopHover() {
                 const navItems = document.querySelectorAll('.nav-item-has-children');
                 
@@ -236,7 +235,6 @@
                     }
                 });
 
-                // Handle nested submenus
                 const submenuItems = document.querySelectorAll('.sub-menu--item.nav-item-has-children');
                 submenuItems.forEach(submenuItem => {
                     const nestedSubmenu = submenuItem.querySelector('.sub-menu');
@@ -261,7 +259,6 @@
 
             function setupMobileMenu() {
                 if (window.innerWidth < 1024) {
-                    // Reset any previously opened submenus
                     document.querySelectorAll('.sub-menu').forEach(menu => {
                         menu.style.display = 'none';
                     });
@@ -273,7 +270,6 @@
                     if (currentMenuTitle) currentMenuTitle.textContent = '';
 
                     dropTriggers.forEach(trigger => {
-                        // Remove old listeners to prevent duplication
                         const newTrigger = trigger.cloneNode(true);
                         trigger.parentNode.replaceChild(newTrigger, trigger);
 
@@ -297,7 +293,6 @@
                         });
                     });
 
-                    // Back button functionality
                     if (goBack) {
                         const newGoBack = goBack.cloneNode(true);
                         goBack.parentNode.replaceChild(newGoBack, goBack);
@@ -328,12 +323,10 @@
                         });
                     }
                 } else {
-                    // Setup desktop hover when not mobile
                     setupDesktopHover();
                 }
             }
 
-            // Initial setup and resize handling
             setupMobileMenu();
             window.addEventListener('resize', function() {
                 setupMobileMenu();

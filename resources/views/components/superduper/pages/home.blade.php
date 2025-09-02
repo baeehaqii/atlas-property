@@ -46,22 +46,20 @@
                             </h2>
 
                             <p class="text-gray-600 text-base lg:text-lg leading-relaxed mb-6">
-                                Modern, ramah keluarga, layanan nyata, dan tim profesional—dibangun dari Purwokerto.
+                               Modern, ramah keluarga, layanan nyata, dan tim profesional dibangun dari Purwokerto.
                             </p>
 
                             <p class="text-gray-600 text-base lg:text-lg leading-relaxed mb-8">
-                                Kami merancang hunian yang fungsional dan nyaman untuk berbagai tahap kehidupan—dengan
-                                tata ruang efisien, cahaya alami, dan kesiapan konektivitas. Layanan purna jual kami
-                                sigap, dan tim lapangan bisa Anda temui.
+                                Kami merancang hunian yang fungsional dan nyaman untuk berbagai tahap kehidupan—dengan tata ruang efisien, cahaya alami, dan kesiapan konektivitas. Layanan purna jual kami sigap, dan tim lapangan bisa Anda temui.
                             </p>
 
                             <!-- Button sesuai referensi - satu kesatuan dengan border -->
-                            <div class="flex items-start">
+                            {{-- <div class="flex items-start">
                                 <a href="https://wa.me/6285169934058"
                                     class="relative z-10 hidden rounded-full border-2 border-black bg-[#DDC692] px-6 py-4 text-sm font-semibold text-black transition-all duration-300 hover:bg-[#C9B480] sm:inline-block">
                                     Hubungi Kami
                                 </a>
-                            </div>
+                            </div> --}}
                         </div>
 
                         <!-- Right Content - Image -->
@@ -102,8 +100,7 @@
                                 <div class="relative z-10 p-6 h-full flex flex-col justify-end">
                                     <div>
                                         <h3 class="text-2xl font-bold text-white mb-2">Modern & Fungsional</h3>
-                                        <p class="text-white text-sm mb-4 opacity-90">Solusi hunian terjangkau untuk
-                                            semua kalangan dengan kualitas terbaik dan lokasi strategis.</p>
+                                        <p class="text-white text-sm mb-4 opacity-90">Rancangan yang mengikuti kebiasaan hidup: cahaya alami, sirkulasi, storage, dan konektivitas.</p>
                                         <a href="https://wa.me/6285169934058" target="_blank" rel="noopener noreferrer"
                                             class="relative z-10 hidden rounded-full border-2 border-black bg-[#DDC692] px-6 py-2 text-sm font-semibold text-black transition-all duration-300 hover:bg-[#C9B480] sm:inline-block">
                                             Selengkapnya
@@ -124,8 +121,7 @@
                                 <div class="relative z-10 p-6 h-full flex flex-col justify-end">
                                     <div>
                                         <h3 class="text-2xl font-bold text-white mb-2">Home for Everyone</h3>
-                                        <p class="text-white text-sm mb-4 opacity-90">Opsi hunian untuk berbagai tahap
-                                            hidup—dari hunian mandiri, keluarga, hingga investasi.</p>
+                                        <p class="text-white text-sm mb-4 opacity-90">Opsi hunian untuk berbagai tahap hidup—dari hunian mandiri, keluarga, hingga investasi.</p>
                                         <a href="https://wa.me/6285169934058" target="_blank" rel="noopener noreferrer"
                                             class="relative z-10 hidden rounded-full border-2 border-black bg-[#DDC692] px-6 py-2 text-sm font-semibold text-black transition-all duration-300 hover:bg-[#C9B480] sm:inline-block">
                                             Selengkapnya
@@ -192,7 +188,8 @@
                                         <h3 class="text-2xl font-bold text-white mb-2">Tim Profesional</h3>
                                         <p class="text-white text-sm mb-4 opacity-90">Didukung dari kami yang sudah
                                             berpengalaman dibidang properti Purwokerto dan sekitarnya.</p>
-                                        <a href="https://wa.me/6285169934058" target="_blank" rel="noopener noreferrer"
+                                        <a href="https://wa.me/6285169934058" target="_blank"
+                                            rel="noopener noreferrer"
                                             class="relative z-10 hidden rounded-full border-2 border-black bg-[#DDC692] px-6 py-2 text-sm font-semibold text-black transition-all duration-300 hover:bg-[#C9B480] sm:inline-block">
                                             Selengkapnya
                                         </a>
@@ -213,7 +210,8 @@
                                         <h3 class="text-2xl font-bold text-white mb-2">Progres Transparan</h3>
                                         <p class="text-white text-sm mb-4 opacity-90">Perkembangan proyek yang bisa
                                             diikuti dengan tanggal dan catatan singkat.</p>
-                                        <a href="https://wa.me/6285169934058" target="_blank" rel="noopener noreferrer"
+                                        <a href="https://wa.me/6285169934058" target="_blank"
+                                            rel="noopener noreferrer"
                                             class="relative z-10 hidden rounded-full border-2 border-black bg-[#DDC692] px-6 py-2 text-sm font-semibold text-black transition-all duration-300 hover:bg-[#C9B480] sm:inline-block">
                                             Selengkapnya
                                         </a>
@@ -230,7 +228,7 @@
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
                     <div class="flex justify-between items-end mb-12">
                         <div>
-                            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mt-2">Property Atlas</h2>
+                            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mt-2">Hunian Atlas - Now & Next</h2>
                         </div>
                         <div class="flex items-center gap-4">
                             <div class="flex gap-2">
@@ -315,7 +313,7 @@
                                             Majestic</h3>
                                         <div
                                             class="service-details max-h-0 opacity-0 transition-all duration-500 ease-in-out mt-2">
-                                            <p class="text-gray-200">Ledug, Purwokerto Jawa Tengah</p>
+                                            <p class="text-gray-200">Wiradadi, Purwokerto Jawa Tengah</p>
                                             <a href="#"
                                                 class="inline-flex items-center mt-4 font-semibold text-white-800 hover:text-primary-300">
                                                 Selengkapnya <svg class="w-4 h-4 ml-2" fill="none"
@@ -335,8 +333,8 @@
                                         alt="Rental Management" class="absolute inset-0 w-full h-full object-cover">
                                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/0"></div>
                                     <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
-                                        <h3 class="text-2xl font-bold text-white hover:text-secondary-800">Soon
-                                            Project</h3>
+                                        <h3 class="text-2xl font-bold text-white hover:text-secondary-800">Pemalang
+                                        </h3>
                                         <div
                                             class="service-details max-h-0 opacity-0 transition-all duration-500 ease-in-out mt-2">
                                             <p class="text-gray-200">Coming Soon</p>
@@ -344,6 +342,23 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="swiper-slide service-card-slide">
+                                <div
+                                    class="service-card relative w-full h-full rounded-2xl overflow-hidden cursor-pointer">
+                                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg"
+                                        alt="Rental Management" class="absolute inset-0 w-full h-full object-cover">
+                                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/0"></div>
+                                    <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
+                                        <h3 class="text-2xl font-bold text-white hover:text-secondary-800">Majenang
+                                        </h3>
+                                        <div
+                                            class="service-details max-h-0 opacity-0 transition-all duration-500 ease-in-out mt-2">
+                                            <p class="text-gray-200">Coming Soon</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -402,29 +417,29 @@
                                         <div
                                             class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
                                             <div class="p-1 border-b border-gray-200">
-                                                <span class="text-sm ml-4 font-medium text-gray-700">Mei 2025</span>
+                                                <span class="text-sm ml-4 font-medium text-gray-700">Agustus
+                                                    2025</span>
                                             </div>
                                             <button type="button"
                                                 class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
-                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544154/WhatsApp_Image_2025-08-30_at_12.47.25_tcg83p.jpg">
-                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544154/WhatsApp_Image_2025-08-30_at_12.47.25_tcg83p.jpg"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.38_m45t7j.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.38_m45t7j.jpg"
                                                     alt="Progress Image" class="w-full h-full object-cover">
                                             </button>
                                         </div>
-
                                         <div
                                             class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
                                             <div class="p-1 border-b border-gray-200">
-                                                <span class="text-sm ml-4 font-medium text-gray-700">Juni 2025</span>
+                                                <span class="text-sm ml-4 font-medium text-gray-700">Agustus
+                                                    2025</span>
                                             </div>
                                             <button type="button"
                                                 class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
-                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.24_iwkagk.jpg">
-                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.24_iwkagk.jpg"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.25_1_st3fnl.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.25_1_st3fnl.jpg"
                                                     alt="Progress Image" class="w-full h-full object-cover">
                                             </button>
                                         </div>
-
                                         <div
                                             class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
                                             <div class="p-1 border-b border-gray-200">
@@ -437,31 +452,27 @@
                                                     alt="Progress Image" class="w-full h-full object-cover">
                                             </button>
                                         </div>
-
                                         <div
                                             class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
                                             <div class="p-1 border-b border-gray-200">
-                                                <span class="text-sm ml-4 font-medium text-gray-700">Agustus
-                                                    2025</span>
+                                                <span class="text-sm ml-4 font-medium text-gray-700">Juni 2025</span>
                                             </div>
                                             <button type="button"
                                                 class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
-                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.38_m45t7j.jpg">
-                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.38_m45t7j.jpg"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.24_iwkagk.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.24_iwkagk.jpg"
                                                     alt="Progress Image" class="w-full h-full object-cover">
                                             </button>
                                         </div>
-
                                         <div
                                             class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
                                             <div class="p-1 border-b border-gray-200">
-                                                <span class="text-sm ml-4 font-medium text-gray-700">Agustus
-                                                    2025</span>
+                                                <span class="text-sm ml-4 font-medium text-gray-700">Mei 2025</span>
                                             </div>
                                             <button type="button"
                                                 class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
-                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.25_1_st3fnl.jpg">
-                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.25_1_st3fnl.jpg"
+                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544154/WhatsApp_Image_2025-08-30_at_12.47.25_tcg83p.jpg">
+                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544154/WhatsApp_Image_2025-08-30_at_12.47.25_tcg83p.jpg"
                                                     alt="Progress Image" class="w-full h-full object-cover">
                                             </button>
                                         </div>
@@ -486,75 +497,64 @@
 
                                 <!-- Scrollable Progress Cards -->
                                 <div class="flex-1 overflow-hidden">
-                                    <div class="flex gap-4 overflow-x-auto pb-4 scrollbar-hide"
-                                        style="scroll-behavior: smooth;">
-                                        <div
-                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
-                                            <div class="p-1 border-b border-gray-200">
-                                                <span class="text-sm ml-4 font-medium text-gray-700">April 2025</span>
-                                            </div>
-                                            <button type="button"
-                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
-                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.19_nkmp1k.jpg">
-                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.19_nkmp1k.jpg"
-                                                    alt="Progress Image" class="w-full h-full object-cover">
-                                            </button>
-                                        </div>
-
-                                        <div
-                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
-                                            <div class="p-1 border-b border-gray-200">
-                                                <span class="text-sm ml-4 font-medium text-gray-700">Mei 2025</span>
-                                            </div>
-                                            <button type="button"
-                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
-                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544150/WhatsApp_Image_2025-08-30_at_11.37.20_1_tqjo75.jpg">
-                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544150/WhatsApp_Image_2025-08-30_at_11.37.20_1_tqjo75.jpg"
-                                                    alt="Progress Image" class="w-full h-full object-cover">
-                                            </button>
-                                        </div>
-
-                                        <div
-                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
-                                            <div class="p-1 border-b border-gray-200">
-                                                <span class="text-sm ml-4 font-medium text-gray-700">Juni 2025</span>
-                                            </div>
-                                            <button type="button"
-                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
-                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544150/WhatsApp_Image_2025-08-30_at_11.37.20_tn7e66.jpg">
-                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544150/WhatsApp_Image_2025-08-30_at_11.37.20_tn7e66.jpg"
-                                                    alt="Progress Image" class="w-full h-full object-cover">
-                                            </button>
-                                        </div>
-
-                                        <div
-                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
-                                            <div class="p-1 border-b border-gray-200">
-                                                <span class="text-sm ml-4 font-medium text-gray-700">Juli 2025</span>
-                                            </div>
-                                            <button type="button"
-                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
-                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.19_1_hyvw1f.jpg">
-                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.19_1_hyvw1f.jpg"
-                                                    alt="Progress Image" class="w-full h-full object-cover">
-                                            </button>
-                                        </div>
-
-                                        <div
-                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
-                                            <div class="p-1 border-b border-gray-200">
-                                                <span class="text-sm ml-4 font-medium text-gray-700">Agustus
-                                                    2025</span>
-                                            </div>
-                                            <button type="button"
-                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
-                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.18_wydsyn.jpg">
-                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.18_wydsyn.jpg"
-                                                    alt="Progress Image" class="w-full h-full object-cover">
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
+    <div class="flex gap-4 overflow-x-auto pb-4 scrollbar-hide" style="scroll-behavior: smooth;">
+        <div class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+            <div class="p-1 border-b border-gray-200">
+                <span class="text-sm ml-4 font-medium text-gray-700">Agustus 2025</span>
+            </div>
+            <button type="button"
+                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.18_wydsyn.jpg">
+                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.18_wydsyn.jpg"
+                    alt="Progress Image" class="w-full h-full object-cover">
+            </button>
+        </div>
+        <div class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+            <div class="p-1 border-b border-gray-200">
+                <span class="text-sm ml-4 font-medium text-gray-700">Juli 2025</span>
+            </div>
+            <button type="button"
+                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.19_1_hyvw1f.jpg">
+                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.19_1_hyvw1f.jpg"
+                    alt="Progress Image" class="w-full h-full object-cover">
+            </button>
+        </div>
+        <div class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+            <div class="p-1 border-b border-gray-200">
+                <span class="text-sm ml-4 font-medium text-gray-700">Juni 2025</span>
+            </div>
+            <button type="button"
+                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544150/WhatsApp_Image_2025-08-30_at_11.37.20_tn7e66.jpg">
+                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544150/WhatsApp_Image_2025-08-30_at_11.37.20_tn7e66.jpg"
+                    alt="Progress Image" class="w-full h-full object-cover">
+            </button>
+        </div>
+        <div class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+            <div class="p-1 border-b border-gray-200">
+                <span class="text-sm ml-4 font-medium text-gray-700">Mei 2025</span>
+            </div>
+            <button type="button"
+                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544150/WhatsApp_Image_2025-08-30_at_11.37.20_1_tqjo75.jpg">
+                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544150/WhatsApp_Image_2025-08-30_at_11.37.20_1_tqjo75.jpg"
+                    alt="Progress Image" class="w-full h-full object-cover">
+            </button>
+        </div>
+        <div class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+            <div class="p-1 border-b border-gray-200">
+                <span class="text-sm ml-4 font-medium text-gray-700">April 2025</span>
+            </div>
+            <button type="button"
+                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.19_nkmp1k.jpg">
+                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.19_nkmp1k.jpg"
+                    alt="Progress Image" class="w-full h-full object-cover">
+            </button>
+        </div>
+    </div>
+</div>
                             </div>
 
                             <!-- Row 3: Atlas Majestic -->
@@ -574,88 +574,64 @@
 
                                 <!-- Scrollable Progress Cards -->
                                 <div class="flex-1 overflow-hidden">
-                                    <div class="flex gap-4 overflow-x-auto pb-4 scrollbar-hide"
-                                        style="scroll-behavior: smooth;">
-                                        <div
-                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
-                                            <div class="p-1 border-b border-gray-200">
-                                                <span class="text-sm ml-4 font-medium text-gray-700">April 2025</span>
-                                            </div>
-                                            <button type="button"
-                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
-                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.14_j613bc.jpg">
-                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.14_j613bc.jpg"
-                                                    alt="Progress Image" class="w-full h-full object-cover">
-                                            </button>
-                                        </div>
-
-                                        <div
-                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
-                                            <div class="p-1 border-b border-gray-200">
-                                                <span class="text-sm ml-4 font-medium text-gray-700">Mei 2025</span>
-                                            </div>
-                                            <button type="button"
-                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
-                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.16_xigcgd.jpg">
-                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.16_xigcgd.jpg"
-                                                    alt="Progress Image" class="w-full h-full object-cover">
-                                            </button>
-                                        </div>
-
-                                        <div
-                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
-                                            <div class="p-1 border-b border-gray-200">
-                                                <span class="text-sm ml-4 font-medium text-gray-700">Juni 2025</span>
-                                            </div>
-                                            <button type="button"
-                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
-                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.16_1_wxkftv.jpg">
-                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.16_1_wxkftv.jpg"
-                                                    alt="Progress Image" class="w-full h-full object-cover">
-                                            </button>
-                                        </div>
-
-                                        <div
-                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
-                                            <div class="p-1 border-b border-gray-200">
-                                                <span class="text-sm ml-4 font-medium text-gray-700">Juli 2025</span>
-                                            </div>
-                                            <button type="button"
-                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
-                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.15_1_a81vrg.jpg">
-                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.15_1_a81vrg.jpg"
-                                                    alt="Progress Image" class="w-full h-full object-cover">
-                                            </button>
-                                        </div>
-
-                                        <div
-                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
-                                            <div class="p-1 border-b border-gray-200">
-                                                <span class="text-sm ml-4 font-medium text-gray-700">Agustus
-                                                    2025</span>
-                                            </div>
-                                            <button type="button"
-                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
-                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.15_hqzjrw.jpg">
-                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.15_hqzjrw.jpg"
-                                                    alt="Progress Image" class="w-full h-full object-cover">
-                                            </button>
-                                        </div>
-
-                                        {{-- <div
-                                            class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
-                                            <div class="p-1 border-b border-gray-200">
-                                                <span class="text-sm ml-4 font-medium text-gray-700">Agustus 2025</span>
-                                            </div>
-                                            <button type="button"
-                                                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
-                                                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.18_wydsyn.jpg">
-                                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544149/WhatsApp_Image_2025-08-30_at_11.37.18_wydsyn.jpg"
-                                                    alt="Progress Image" class="w-full h-full object-cover">
-                                            </button>
-                                        </div> --}}
-                                    </div>
-                                </div>
+    <div class="flex gap-4 overflow-x-auto pb-4 scrollbar-hide" style="scroll-behavior: smooth;">
+        <div class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+            <div class="p-1 border-b border-gray-200">
+                <span class="text-sm ml-4 font-medium text-gray-700">Agustus 2025</span>
+            </div>
+            <button type="button"
+                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.15_hqzjrw.jpg">
+                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.15_hqzjrw.jpg"
+                    alt="Progress Image" class="w-full h-full object-cover">
+            </button>
+        </div>
+        <div class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+            <div class="p-1 border-b border-gray-200">
+                <span class="text-sm ml-4 font-medium text-gray-700">Juli 2025</span>
+            </div>
+            <button type="button"
+                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.15_1_a81vrg.jpg">
+                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.15_1_a81vrg.jpg"
+                    alt="Progress Image" class="w-full h-full object-cover">
+            </button>
+        </div>
+        <div class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+            <div class="p-1 border-b border-gray-200">
+                <span class="text-sm ml-4 font-medium text-gray-700">Juni 2025</span>
+            </div>
+            <button type="button"
+                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.16_1_wxkftv.jpg">
+                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.16_1_wxkftv.jpg"
+                    alt="Progress Image" class="w-full h-full object-cover">
+            </button>
+        </div>
+        <div class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+            <div class="p-1 border-b border-gray-200">
+                <span class="text-sm ml-4 font-medium text-gray-700">Mei 2025</span>
+            </div>
+            <button type="button"
+                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.16_xigcgd.jpg">
+                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.16_xigcgd.jpg"
+                    alt="Progress Image" class="w-full h-full object-cover">
+            </button>
+        </div>
+        <div class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+            <div class="p-1 border-b border-gray-200">
+                <span class="text-sm ml-4 font-medium text-gray-700">April 2025</span>
+            </div>
+            <button type="button"
+                class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.14_j613bc.jpg">
+                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756544151/WhatsApp_Image_2025-08-30_at_12.08.14_j613bc.jpg"
+                    alt="Progress Image" class="w-full h-full object-cover">
+            </button>
+        </div>
+    </div>
+</div>
                             </div>
 
                         </div>
@@ -812,19 +788,14 @@
                     {{-- Section Header --}}
                     <div class="flex justify-between items-end mb-12">
                         <div>
-                            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900">Artikel Populer</h2>
+                            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900">Belajar Property</h2>
                         </div>
 
                         {{-- View All Button sesuai referensi --}}
                         <div class="flex items-center gap-4">
                             <a href="#"
-                                class="group bg-[#063663] text-white px-6 py-3 rounded-full inline-flex items-center space-x-3 transition-all duration-300 transform hover:scale-105 font-semibold text-sm">
-                                <span>Lihat Semua</span>
-                                <svg class="w-4 h-4 group-hover:translate-x-0.5 transition-transform duration-300"
-                                    fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                                </svg>
+                                class="relative z-10 hidden rounded-full border-2 border-black bg-[#DDC692] px-6 py-2 text-sm font-semibold text-black transition-all duration-300 hover:bg-[#C9B480] sm:inline-block">
+                                Lihat Semua Artikel
                             </a>
                         </div>
                     </div>
@@ -837,7 +808,7 @@
                                 @foreach ($posts as $post)
                                     <div class="swiper-slide">
                                         <div
-                                            class="bg-white rounded-2xl border border-gray-200 overflow-hidden h-full flex flex-col group hover:shadow-lg transition-all duration-300 mx-2">
+                                            class="bg-white rounded-2xl border-2 border-[#3e3215] overflow-hidden h-full flex flex-col group hover:shadow-lg transition-all duration-300 mx-2">
                                             {{-- Article Image --}}
                                             <div class="overflow-hidden">
                                                 <img class="w-full h-48 lg:h-56 object-cover group-hover:scale-105 transition-transform duration-500"
@@ -858,13 +829,8 @@
                                                 {{-- Learn More Button dengan background rounded --}}
                                                 <div class="mt-2">
                                                     <a href="{{ route('blog.show', $post->slug) }}"
-                                                        class="group inline-flex items-center bg-gray-50 hover:bg-secondary-900 text-primary-900 hover:text-white px-4 py-2 rounded-full transition-all duration-300 font-medium text-sm">
+                                                        class="relative z-10 hidden rounded-full border-2 border-black bg-[#DDC692] px-6 py-2 text-sm font-semibold text-black transition-all duration-300 hover:bg-[#C9B480] sm:inline-block">
                                                         <span>Baca Selengkapnya</span>
-                                                        <svg class="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300"
-                                                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                                stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                                                        </svg>
                                                     </a>
                                                 </div>
                                             </div>
@@ -1057,17 +1023,30 @@
         document.addEventListener('DOMContentLoaded', function() {
             // Inisialisasi Swiper untuk Services
             const servicesSwiper = new Swiper('.services-slider', {
-                loop: false,
-                slidesPerView: 'auto',
-                spaceBetween: 16,
-                navigation: {
-                    nextEl: '#services-next',
-                    prevEl: '#services-prev',
-                },
-                observer: true,
-                observeParents: true,
-                allowTouchMove: false,
-            });
+    loop: false,
+    slidesPerView: 1,
+    spaceBetween: 16,
+    navigation: {
+        nextEl: '#services-next',
+        prevEl: '#services-prev',
+    },
+    observer: true,
+    observeParents: true,
+    breakpoints: {
+        640: {
+            slidesPerView: 1,
+            spaceBetween: 16
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 24
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 24
+        }
+    }
+});
 
             const serviceSlides = document.querySelectorAll('.service-card-slide');
 
@@ -1249,6 +1228,8 @@
                 width: 80%;
             }
         }
+
+        
 
         @keyframes marquee {
             0% {
