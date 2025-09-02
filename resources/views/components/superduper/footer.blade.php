@@ -13,7 +13,7 @@
                     Kabupaten Banyumas, Jawa Tengah 53116 <br>
                     Indonesia
                 </p>
-                <p class="mt-4 text-sm">+62 281 123456</p>
+                <p class="mt-4 text-sm">6285169934058</p>
                 <p class="text-sm">info@atlasproperty.co.id</p>
             </div>
 
