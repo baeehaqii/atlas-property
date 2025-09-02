@@ -228,7 +228,7 @@
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
                     <div class="flex justify-between items-end mb-12">
                         <div>
-                            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mt-2">Hunian Atlas - Now & Next</h2>
+                            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mt-2">Hunian Atlas</h2>
                         </div>
                         <div class="flex items-center gap-4">
                             <div class="flex gap-2">
