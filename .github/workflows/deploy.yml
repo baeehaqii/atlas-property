@@ -13,12 +13,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Deploy Server
+      - name: Deploy to Server
         uses: appleboy/ssh-action@v0.1.10
         with:
           host: ${{ secrets.AAPANEL_HOST }}
           username: ${{ secrets.AAPANEL_USER }}
-          key: ${{ secrets.AAPANEL_SSH_KEY }}
+          password: ${{ secrets.AAPANEL_PASSWORD }}
+          port: 22
           script: |
             cd /www/wwwroot/atlasproperty.co.id
             git pull origin main
