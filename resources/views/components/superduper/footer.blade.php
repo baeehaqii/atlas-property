@@ -4,23 +4,10 @@
             <!-- Logo & Address -->
             <div class="md:col-span-4">
                 <div>
-                    <a href="{{ route('home') }}" class="relative z-10 flex-shrink-0">
-                        @php
-                            $brandLogo = $generalSettings->brand_logo ?? null;
-                            $brandName = $generalSettings->brand_name ?? config('app.name', 'Atlas Property');
-                        @endphp
-
-                        @if ($brandLogo)
-                            <img src="{{ Storage::url($brandLogo) }}" alt="{{ $brandName }}"
-                                class="w-auto h-10 md:h-12" />
-                        @else
-                            <div class="flex items-center">
-                                <span
-                                    class="text-xl font-bold md:text-2xl text-primary-800 dark:text-white header-brand-text">{{ $brandName }}</span>
-                            </div>
-                        @endif
-                    </a>
-                </div>
+    <a href="{{ route('home') }}" class="relative z-10 flex-shrink-0">
+        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756831080/logoAtlas_uojdux.png" alt="Atlas Property" class="w-auto h-10 md:h-12" />
+    </a>
+</div>
                 <p class="text-sm">
                     Jl. Jend. Sudirman No.5-7, Purwokerto, <br>
                     Kabupaten Banyumas, Jawa Tengah 53116 <br>
