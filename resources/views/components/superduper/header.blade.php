@@ -12,8 +12,7 @@
                     <img src="{{ Storage::url($brandLogo) }}" alt="{{ $brandName }}" class="h-10 w-auto md:h-12" />
                 @else
                     <div class="flex items-center">
-                        <span
-                            class="text-xl font-bold text-black md:text-2xl">{{ $brandName }}</span>
+                        <span class="text-xl font-bold text-black md:text-2xl">{{ $brandName }}</span>
                     </div>
                 @endif
             </a>
@@ -23,16 +22,14 @@
         <div class="menu-block-wrapper lg:static lg:z-[9998]">
             <div class="menu-overlay fixed inset-0 z-40 bg-primary-900/70 backdrop-blur-sm lg:hidden"
                 style="display: none;"></div>
-            <nav class="menu-block fixed bottom-0 right-0 top-0 z-50 w-[280px] transform overflow-y-auto shadow-2xl transition-transform duration-300 translate-x-full md:w-[320px] lg:static lg:w-auto lg:translate-x-0 lg:bg-transparent lg:shadow-none lg:overflow-visible"
-    style="background-color: #042849;"
+            <nav class="menu-block fixed bottom-0 right-0 top-0 z-50 w-[280px] transform overflow-y-auto shadow-2xl transition-transform duration-300 translate-x-full md:w-[320px] lg:static lg:w-auto lg:translate-x-0 lg:bg-white lg:shadow-none lg:overflow-visible"
                 id="append-menu-header">
                 <!-- Mobile Menu Header -->
                 <div class="flex items-center justify-between p-4 lg:hidden border-b border-white/20">
                     <div class="go-back flex items-center text-white">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 h-5 w-5" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M15 19l-7-7 7-7" />
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mr-1 h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                         </svg>
                         <span>Back</span>
                     </div>
@@ -47,7 +44,8 @@
                 @endphp
 
                 <!-- Desktop Menu -->
-                <ul class="site-menu-main hidden p-4 text-lg lg:flex lg:items-center lg:divide-x-2 lg:divide-black lg:p-0">
+                <ul
+                    class="site-menu-main hidden p-4 text-lg lg:flex lg:items-center lg:divide-x-2 lg:divide-black lg:p-0">
                     @if ($menu)
                         @foreach ($menu->menuItems as $index => $item)
                             @php
@@ -62,7 +60,8 @@
                                     @if ($item->target) target="{{ $item->target }}" @endif>
                                     <span>{{ $item->title }}</span>
                                     @if ($hasChildren)
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 h-4 w-4 transition-transform group-hover:rotate-180 lg:h-5 lg:w-5 text-black group-hover:text-primary-700"
+                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                            class="ml-1 h-4 w-4 transition-transform group-hover:rotate-180 lg:h-5 lg:w-5 text-black group-hover:text-primary-700"
                                             fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 d="M19 9l-7 7-7-7" />
@@ -86,9 +85,9 @@
                                                     @if ($childItem->target) target="{{ $childItem->target }}" @endif>
                                                     <span>{{ $childItem->title }}</span>
                                                     @if ($hasGrandchildren)
-                                                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 h-4 w-4 text-black"
-                                                            fill="none" viewBox="0 0 24 24"
-                                                            stroke="currentColor">
+                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                            class="ml-1 h-4 w-4 text-black" fill="none"
+                                                            viewBox="0 0 24 24" stroke="currentColor">
                                                             <path stroke-linecap="round" stroke-linejoin="round"
                                                                 stroke-width="2" d="M9 5l7 7-7 7" />
                                                         </svg>
@@ -117,7 +116,7 @@
                         @endforeach
                     @endif
                 </ul>
-                
+
                 <!-- Mobile Menu -->
                 <ul class="site-menu-main block p-4 text-lg lg:hidden">
                     @if ($menu)
@@ -132,8 +131,10 @@
                                     @if ($item->target) target="{{ $item->target }}" @endif>
                                     <span>{{ $item->title }}</span>
                                     @if ($hasChildren)
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 h-4 w-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-1 h-4 w-4 text-white"
+                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M19 9l-7 7-7-7" />
                                         </svg>
                                     @endif
                                 </a>
@@ -141,9 +142,9 @@
                                     <ul class="sub-menu mt-2 pl-4 bg-white/5 rounded-xl" id="{{ $menuId }}">
                                         @foreach ($item->children as $childItem)
                                             <li class="sub-menu--item mb-2">
-                                                <a href="{{ $childItem->url }}" 
-                                                   class="block rounded px-3 py-2 text-white/80 transition-colors hover:bg-white/10 hover:text-white" 
-                                                   @if ($childItem->target) target="{{ $childItem->target }}" @endif>
+                                                <a href="{{ $childItem->url }}"
+                                                    class="block rounded px-3 py-2 text-white/80 transition-colors hover:bg-white/10 hover:text-white"
+                                                    @if ($childItem->target) target="{{ $childItem->target }}" @endif>
                                                     {{ $childItem->title }}
                                                 </a>
                                             </li>
@@ -160,7 +161,8 @@
         <!-- Header Action Button -->
         <div class="flex items-center gap-4 md:gap-6">
             <!-- Desktop Button -->
-            <a href="https://wa.me/6285169934058" class="relative z-10 hidden rounded-full border-2 border-black bg-[#DDC692] px-6 py-2 text-sm font-semibold text-black transition-all duration-300 hover:bg-[#C9B480] sm:inline-block">
+            <a href="https://wa.me/6285169934058"
+                class="relative z-10 hidden rounded-full border-2 border-black bg-[#DDC692] px-6 py-2 text-sm font-semibold text-black transition-all duration-300 hover:bg-[#C9B480] sm:inline-block">
                 Hubungi Kami
             </a>
 
@@ -168,10 +170,8 @@
             <div class="block lg:hidden">
                 <button id="openBtn"
                     class="mobile-menu-trigger hamburger-menu flex h-10 w-10 flex-col items-center justify-center rounded-md focus:outline-none focus:ring-2 focus:ring-primary-600">
-                    <span
-                        class="hamburger-line mb-1.5 block h-0.5 w-6 bg-black transition-transform"></span>
-                    <span
-                        class="hamburger-line mb-1.5 block h-0.5 w-6 bg-black transition-opacity"></span>
+                    <span class="hamburger-line mb-1.5 block h-0.5 w-6 bg-black transition-transform"></span>
+                    <span class="hamburger-line mb-1.5 block h-0.5 w-6 bg-black transition-opacity"></span>
                     <span class="hamburger-line block h-0.5 w-6 bg-black transition-transform"></span>
                 </button>
             </div>
@@ -180,6 +180,19 @@
 </header>
 
 @push('js')
+    <style>
+        @media (max-width: 1023px) {
+            .menu-block {
+                background-color: #042849 !important;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .menu-block {
+                background-color: white !important;
+            }
+        }
+    </style>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const menuTrigger = document.querySelector('.mobile-menu-trigger');
@@ -214,7 +227,7 @@
 
             function setupDesktopHover() {
                 const navItems = document.querySelectorAll('.nav-item-has-children');
-                
+
                 navItems.forEach(navItem => {
                     const submenu = navItem.querySelector('.sub-menu');
                     let hoverTimeout;
@@ -222,14 +235,18 @@
                     if (submenu && window.innerWidth >= 1024) {
                         navItem.addEventListener('mouseenter', function() {
                             clearTimeout(hoverTimeout);
-                            submenu.classList.remove('lg:opacity-0', 'lg:invisible', 'lg:translate-y-2');
-                            submenu.classList.add('lg:opacity-100', 'lg:visible', 'lg:translate-y-0');
+                            submenu.classList.remove('lg:opacity-0', 'lg:invisible',
+                                'lg:translate-y-2');
+                            submenu.classList.add('lg:opacity-100', 'lg:visible',
+                                'lg:translate-y-0');
                         });
 
                         navItem.addEventListener('mouseleave', function() {
                             hoverTimeout = setTimeout(() => {
-                                submenu.classList.add('lg:opacity-0', 'lg:invisible', 'lg:translate-y-2');
-                                submenu.classList.remove('lg:opacity-100', 'lg:visible', 'lg:translate-y-0');
+                                submenu.classList.add('lg:opacity-0', 'lg:invisible',
+                                    'lg:translate-y-2');
+                                submenu.classList.remove('lg:opacity-100', 'lg:visible',
+                                    'lg:translate-y-0');
                             }, 100);
                         });
                     }
@@ -243,14 +260,18 @@
                     if (nestedSubmenu && window.innerWidth >= 1024) {
                         submenuItem.addEventListener('mouseenter', function() {
                             clearTimeout(nestedTimeout);
-                            nestedSubmenu.classList.remove('lg:opacity-0', 'lg:invisible', 'lg:translate-x-2');
-                            nestedSubmenu.classList.add('lg:opacity-100', 'lg:visible', 'lg:translate-x-0');
+                            nestedSubmenu.classList.remove('lg:opacity-0', 'lg:invisible',
+                                'lg:translate-x-2');
+                            nestedSubmenu.classList.add('lg:opacity-100', 'lg:visible',
+                                'lg:translate-x-0');
                         });
 
                         submenuItem.addEventListener('mouseleave', function() {
                             nestedTimeout = setTimeout(() => {
-                                nestedSubmenu.classList.add('lg:opacity-0', 'lg:invisible', 'lg:translate-x-2');
-                                nestedSubmenu.classList.remove('lg:opacity-100', 'lg:visible', 'lg:translate-x-0');
+                                nestedSubmenu.classList.add('lg:opacity-0', 'lg:invisible',
+                                    'lg:translate-x-2');
+                                nestedSubmenu.classList.remove('lg:opacity-100',
+                                    'lg:visible', 'lg:translate-x-0');
                             }, 100);
                         });
                     }
@@ -282,12 +303,12 @@
 
                                 if (submenu) {
                                     submenu.style.display = 'block';
-                                    if(currentMenuTitle) currentMenuTitle.textContent = title;
-                                    
+                                    if (currentMenuTitle) currentMenuTitle.textContent = title;
+
                                     const parentMenu = parent.closest('ul');
-                                    if(parentMenu) parentMenu.style.display = 'none';
-                                    
-                                    if(goBack) goBack.style.display = 'flex';
+                                    if (parentMenu) parentMenu.style.display = 'none';
+
+                                    if (goBack) goBack.style.display = 'flex';
                                 }
                             }
                         });
@@ -297,26 +318,29 @@
                         const newGoBack = goBack.cloneNode(true);
                         goBack.parentNode.replaceChild(newGoBack, goBack);
                         newGoBack.addEventListener('click', function() {
-                            const activeSubmenu = document.querySelector('.sub-menu[style*="display: block"]');
+                            const activeSubmenu = document.querySelector(
+                                '.sub-menu[style*="display: block"]');
                             if (activeSubmenu) {
                                 activeSubmenu.style.display = 'none';
                                 const parentMenu = activeSubmenu.parentElement.closest('ul');
-                                if(parentMenu) {
+                                if (parentMenu) {
                                     parentMenu.style.display = 'none';
                                 }
-                                
+
                                 const grandParentMenu = activeSubmenu.parentElement.parentElement;
-                                if(grandParentMenu && grandParentMenu.tagName === 'UL'){
-                                     grandParentMenu.style.display = 'block';
+                                if (grandParentMenu && grandParentMenu.tagName === 'UL') {
+                                    grandParentMenu.style.display = 'block';
                                 }
 
                                 if (grandParentMenu.classList.contains('site-menu-main')) {
-                                    if(currentMenuTitle) currentMenuTitle.textContent = '';
+                                    if (currentMenuTitle) currentMenuTitle.textContent = '';
                                     this.style.display = 'none';
                                 } else {
-                                    const parentTrigger = grandParentMenu.closest('li.nav-item-has-children').querySelector('.drop-trigger');
+                                    const parentTrigger = grandParentMenu.closest(
+                                        'li.nav-item-has-children').querySelector('.drop-trigger');
                                     if (parentTrigger && currentMenuTitle) {
-                                        currentMenuTitle.textContent = parentTrigger.querySelector('span').textContent;
+                                        currentMenuTitle.textContent = parentTrigger.querySelector('span')
+                                            .textContent;
                                     }
                                 }
                             }
