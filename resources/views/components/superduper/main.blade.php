@@ -164,7 +164,7 @@
     @yield('meta')
     <title>@yield('title', 'Atlas Property')</title>
 
-    <title>{{ $title }}</title>
+    {{-- <title>{{ $title }}</title> --}}
 
     <!-- Favicon from settings -->
     <link rel="shortcut icon" href="{{ $favicon ? Storage::url($favicon) : asset('superduper/img/favicon.png') }}"

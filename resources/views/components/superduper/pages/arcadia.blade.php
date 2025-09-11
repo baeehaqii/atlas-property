@@ -4,8 +4,8 @@
     <div class="relative min-h-screen bg-gradient-to-br from-amber-50 to-stone-100 overflow-hidden">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0">
-            <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1755847807/arcadia-1_u7guoe.jpg" alt="Arcadia Architecture"
-                class="w-full h-full object-cover">
+            <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1755847807/arcadia-1_u7guoe.jpg"
+                alt="Arcadia Architecture" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-black bg-opacity-40"></div>
             <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
         </div>
@@ -166,8 +166,8 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                     <!-- Left - Image -->
                     <div class="p-8">
-                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1755847807/arcadia-1_u7guoe.jpg" alt="Atlas Arcadia Property Investment"
-                            class="w-full h-auto rounded-lg">
+                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1755847807/arcadia-1_u7guoe.jpg"
+                            alt="Atlas Arcadia Property Investment" class="w-full h-auto rounded-lg">
                     </div>
 
                     <!-- Right - Content -->
@@ -480,55 +480,55 @@
                 {{-- Ulangi blok ini untuk setiap gambar. Ganti path gambar sesuai kebutuhan. --}}
                 <div class="group">
                     <a href="#"
-                        @click.prevent="showModal = true; modalImage = '{{ asset('storage/sites/arcadia-1.jpg') }}'"
+                        @click.prevent="showModal = true; modalImage = 'https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg'"
                         class="block w-full h-full rounded-2xl overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-                        <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Konsep Rukost Modern Minimalis 1"
-                            class="w-full h-full object-cover">
+                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg"
+                            alt="Konsep Rukost Modern Minimalis 1" class="w-full h-full object-cover">
                     </a>
                 </div>
 
                 <div class="group">
                     <a href="#"
-                        @click.prevent="showModal = true; modalImage = '{{ asset('storage/sites/arcadia-1.jpg') }}'"
+                        @click.prevent="showModal = true; modalImage = 'https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg'"
                         class="block w-full h-full rounded-2xl overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-                        <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Konsep Rukost Modern Minimalis 2"
-                            class="w-full h-full object-cover">
+                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg"
+                            alt="Konsep Rukost Modern Minimalis 2" class="w-full h-full object-cover">
                     </a>
                 </div>
 
                 <div class="group">
                     <a href="#"
-                        @click.prevent="showModal = true; modalImage = '{{ asset('storage/sites/arcadia-1.jpg') }}'"
+                        @click.prevent="showModal = true; modalImage = 'https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg'"
                         class="block w-full h-full rounded-2xl overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-                        <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Konsep Rukost Modern Minimalis 3"
-                            class="w-full h-full object-cover">
+                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg"
+                            alt="Konsep Rukost Modern Minimalis 3" class="w-full h-full object-cover">
                     </a>
                 </div>
 
                 <div class="group">
                     <a href="#"
-                        @click.prevent="showModal = true; modalImage = '{{ asset('storage/sites/arcadia-1.jpg') }}'"
+                        @click.prevent="showModal = true; modalImage = 'https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg'"
                         class="block w-full h-full rounded-2xl overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-                        <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Konsep Rukost Modern Minimalis 4"
-                            class="w-full h-full object-cover">
+                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg"
+                            alt="Konsep Rukost Modern Minimalis 4" class="w-full h-full object-cover">
                     </a>
                 </div>
 
                 <div class="group">
                     <a href="#"
-                        @click.prevent="showModal = true; modalImage = '{{ asset('storage/sites/arcadia-1.jpg') }}'"
+                        @click.prevent="showModal = true; modalImage = 'https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg'"
                         class="block w-full h-full rounded-2xl overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-                        <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Konsep Rukost Modern Minimalis 5"
-                            class="w-full h-full object-cover">
+                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg"
+                            alt="Konsep Rukost Modern Minimalis 5" class="w-full h-full object-cover">
                     </a>
                 </div>
 
                 <div class="group">
                     <a href="#"
-                        @click.prevent="showModal = true; modalImage = '{{ asset('storage/sites/arcadia-1.jpg') }}'"
+                        @click.prevent="showModal = true; modalImage = 'https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg'"
                         class="block w-full h-full rounded-2xl overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-                        <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Konsep Rukost Modern Minimalis 6"
-                            class="w-full h-full object-cover">
+                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg"
+                            alt="Konsep Rukost Modern Minimalis 6" class="w-full h-full object-cover">
                     </a>
                 </div>
 
@@ -710,32 +710,28 @@
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
 
-                <div
-                    class="bg-white border-2 border-black rounded-lg aspect-square flex items-center justify-center p-4 text-center">
-                    <span class="text-xl font-semibold text-gray-800">
-                        Club House
-                    </span>
+                <div class="aspect-square flex flex-col items-center justify-center p-4 text-center">
+                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1757604844/minimarket-web_ayv5nb.jpg"
+                        alt="Minimarket" class="object-cover border-2 border-black w-full h-full rounded-lg">
+                    <h2 class="mt-4 text-2xl font-bold text-gray-900">Minimarket</h2>
                 </div>
 
-                <div
-                    class="bg-white border-2 border-black rounded-lg aspect-square flex items-center justify-center p-4 text-center">
-                    <span class="text-xl font-semibold text-gray-800">
-                        One Gate System
-                    </span>
+                <div class="aspect-square flex flex-col items-center justify-center p-4 text-center">
+                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1757604844/Gym-web_xgygiy.jpg"
+                        alt="Minimarket" class="object-cover border-2 border-black w-full h-full rounded-lg">
+                    <h2 class="mt-4 text-2xl font-bold text-gray-900">Gym Area</h2>
+                </div>  
+
+                <div class="aspect-square flex flex-col items-center justify-center p-4 text-center">
+                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1757604843/Laundry-web_l5qaki.jpg"
+                        alt="Minimarket" class="object-cover border-2 border-black w-full h-full rounded-lg">
+                    <h2 class="mt-4 text-2xl font-bold text-gray-900">Laundry Area</h2>
                 </div>
 
-                <div
-                    class="bg-white border-2 border-black rounded-lg aspect-square flex items-center justify-center p-4 text-center">
-                    <span class="text-xl font-semibold text-gray-800">
-                        Laundry
-                    </span>
-                </div>
-
-                <div
-                    class="bg-white border-2 border-black rounded-lg aspect-square flex items-center justify-center p-4 text-center">
-                    <span class="text-xl font-semibold text-gray-800">
-                        Gym
-                    </span>
+                <div class="aspect-square flex flex-col items-center justify-center p-4 text-center">
+                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1757604843/parkingarea-web_fwg68m.jpg"
+                        alt="Minimarket" class="object-cover border-2 border-black w-full h-full rounded-lg">
+                    <h2 class="mt-4 text-2xl font-bold text-gray-900">Parking Area</h2>
                 </div>
 
             </div>
@@ -814,9 +810,9 @@
                 </div>
             </div>
             <div class="relative overflow-hidden min-h-[400px] lg:min-h-[600px]">
-                <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Arcadia Siteplan"
+                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg" alt="Arcadia Siteplan"
                     class="w-full h-full object-cover">
-                <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Arcadia Siteplan Placeholder"
+                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg" alt="Arcadia Siteplan Placeholder"
                     class="w-full h-full object-cover absolute inset-0 -z-10" onerror="this.style.display='none'">
             </div>
         </div>
@@ -1019,4 +1015,3 @@
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'instagram-wjs'));
 </script>
-

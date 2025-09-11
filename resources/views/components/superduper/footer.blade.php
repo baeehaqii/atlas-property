@@ -39,13 +39,28 @@
                 <h3 class="font-bold text-white mb-4">Partner</h3>
                 <ul class="space-y-2 text-sm">
                     <li>
+                        <a href="#" class="hover:text-white">Bank Syariah Indonesia (BSI)</a>
+                    </li>
+                    <li>
                         <a href="#" class="hover:text-white">Mandiri</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:text-white">BRI</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:text-white">BTN</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:text-white">BTN Syariah</a>
                     </li>
                     <li>
                         <a href="#" class="hover:text-white">BNI</a>
                     </li>
                     <li>
-                        <a href="#" class="hover:text-white">BRI</a>
+                        <a href="#" class="hover:text-white">Mowilex</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:text-white">Angzdoor</a>
                     </li>
                 </ul>
             </div>
