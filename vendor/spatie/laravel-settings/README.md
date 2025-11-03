@@ -440,6 +440,19 @@ public function up(): void
 }
 ```
 
+#### Using different repositories
+
+You can specify a different repository for migration operations:
+
+```php
+public function up(): void
+{
+    $this->migrator->repository('redis');
+    
+    $this->migrator->add('general.site_active', true);
+}
+```
+
 ### Typing properties
 
 It is possible to create a settings class with regular PHP types:
@@ -574,6 +587,17 @@ class DateSettings extends Settings
 ```
 
 The package will automatically find the cast and will use it to transform the types between the settings class and repository.
+
+#### Available casts
+
+The package comes with a few built-in casts:
+
+- `DateTimeInterfaceCast` for objects implementing `DateTimeInterface` (`DateTime`, `DateTimeImmutable`, `Carbon`, `CarbonImmutable`)
+- `DateTimeZoneCast` for `DateTimeZone` objects
+- `DataCast` for `Spatie\LaravelData\Data` objects
+- `DataArrayCast` for arrays of `Spatie\LaravelData\Data` objects
+- `EnumCast` for native PHP enums
+- `CollectionCast` for `Illuminate\Support\Collection` objects
 
 #### Typing properties
 
@@ -1014,9 +1038,9 @@ A good example here is the `DateTimeInterfaceCast` we've added by default in the
     ...
 ```
 
-Whenever the package detects a `Carbon`, `CarbonImmutable`, `DateTime`, or `DateTimeImmutable` type as the type of one of a settings class's properties. It will use the `DateTimeInterfaceCast` as a caster. This because `Carbon`, `CarbonImmutable`, `DateTime` and `DateTimeImmutable` all implement `DateTimeInterface`. The key that was used in `settings.php` to represent the cast.
+Whenever the package detects a `Carbon`, `CarbonImmutable`, `DateTime`, or `DateTimeImmutable` type as the type of one of a settings class's properties, it will use the `DateTimeInterfaceCast` as a caster. This because `Carbon`, `CarbonImmutable`, `DateTime` and `DateTimeImmutable` all implement `DateTimeInterface`. The key that was used in `settings.php` to represent the cast.
 
-The type injected in the caster will be the type of the property. So let's say you have a property with the type `DateTime` within your settings class. When casting this property, the `DateTimeInterfaceCast` will receive `DateTime:class` as a type. 
+The type injected in the caster will be the type of the property. So let's say you have a property with the type `DateTime` within your settings class. When casting this property, the `DateTimeInterfaceCast` will receive `DateTime::class` as a type. 
 
 
 ### Repositories
@@ -1025,7 +1049,7 @@ There are two types of repositories included in the package, the `redis` and `da
 
 #### Database repository
 
-The database repository has two optional configuration options:
+The database repository has three optional configuration options:
 
 - `model` the Eloquent model used to load/save properties to the database
 - `table` the table used in the database

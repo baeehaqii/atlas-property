@@ -1,9 +1,11 @@
+@section('title', 'Atlas Arcadia - Atlas Property')
+
 <x-superduper.main>
     <div class="relative min-h-screen bg-gradient-to-br from-amber-50 to-stone-100 overflow-hidden">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0">
-            <img src="{{ asset('storage/sites/hero.jpeg') }}" alt="Arcadia Architecture"
-                class="w-full h-full object-cover">
+            <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg"
+                alt="Atlas Arcadia" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-black bg-opacity-40"></div>
             <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
         </div>
@@ -93,7 +95,7 @@
                 <!-- Reel 1: Sorotan Publik Figur -->
                 <div class="text-center">
                     <div class="aspect-[9/16] rounded-2xl overflow-hidden shadow-lg mb-6">
-                        <iframe src="https://www.instagram.com/reel/embed/PLACEHOLDER1/" width="100%" height="100%"
+                        <iframe src="https://www.instagram.com/reel/embed/PLACEHOLDER2/" width="400%" height="711%"
                             frameborder="0" scrolling="no" allowtransparency="true" allow="encrypted-media">
                         </iframe>
                     </div>
@@ -115,7 +117,7 @@
                 <!-- Reel 3: Transportasi -->
                 <div class="text-center">
                     <div class="aspect-[9/16] rounded-2xl overflow-hidden shadow-lg mb-6">
-                        <iframe src="https://www.instagram.com/reel/embed/PLACEHOLDER3/" width="100%" height="100%"
+                        <iframe src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1759577818/kereta-bustrans_fjvkvt.gif" width="100%" height="100%"
                             frameborder="0" scrolling="no" allowtransparency="true" allow="encrypted-media">
                         </iframe>
                     </div>
@@ -142,11 +144,12 @@
                 </p>
             </div>
             <div class="text-center mt-12">
-                <button
-                    class="inline-block bg-[#DDC692] hover:bg-[#C9B480] text-black px-8 py-4 text-lg font-semibold tracking-wide rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border-2 border-black">
-                    Mulai Berinvestasi Sekarang
-                </button>
-            </div>
+    <a href="https://wa.me/626285169934058" target="_blank" rel="noopener noreferrer" aria-label="Hubungi via WhatsApp">
+        <button class="inline-block bg-[#DDC692] hover:bg-[#C9B480] text-black px-8 py-4 text-lg font-semibold tracking-wide rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border-2 border-black">
+            Besarnya Kesempatan
+        </button>
+    </a>
+</div>
     </section>
 
     <!-- Investment Section -->
@@ -164,8 +167,8 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                     <!-- Left - Image -->
                     <div class="p-8">
-                        <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Atlas Arcadia Property Investment"
-                            class="w-full h-auto rounded-lg">
+                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1755847807/arcadia-1_u7guoe.jpg"
+                            alt="Atlas Arcadia Property Investment" class="w-full h-auto rounded-lg">
                     </div>
 
                     <!-- Right - Content -->
@@ -264,11 +267,12 @@
                 </p>
             </div>
             <div class="text-center mt-12">
-                <button
-                    class="inline-block bg-[#DDC692] hover:bg-[#C9B480] text-black px-8 py-4 text-lg font-semibold tracking-wide rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border-2 border-black">
-                    Mulai Berinvestasi Sekarang
-                </button>
-            </div>
+    <a href="https://wa.me/626285169934058" target="_blank" rel="noopener noreferrer" aria-label="Hubungi via WhatsApp">
+        <button class="inline-block bg-[#DDC692] hover:bg-[#C9B480] text-black px-8 py-4 text-lg font-semibold tracking-wide rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border-2 border-black">
+            Mulai Berinvestasi Sekarang
+        </button>
+    </a>
+</div>
     </section>
 
     <!-- Comparison Section -->
@@ -433,7 +437,7 @@
                         alt="Arcadia" class="mb-6 w-full h-auto max-w-sm md:max-w-md mx-auto lg:mx-0">
 
                     <p class="text-white/90 text-base lg:text-lg xl:text-xl leading-relaxed mb-6 lg:mb-8 font-light">
-                        Arcadia Property adalah sebuah properti yang mengusung konsep hunian modern dengan sentuhan
+                        Atlas Arcadia adalah sebuah properti yang mengusung konsep hunian modern dengan sentuhan
                         arsitektur yang elegan dan fungsional.
                     </p>
 
@@ -450,7 +454,7 @@
 
             {{-- Right Column - Image --}}
             <div class="relative overflow-hidden">
-                <img src="{{ asset('storage/sites/arcadia-1.jpg') }}"
+                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1755847807/arcadia-1_u7guoe.jpg"
                     alt="Modern residential complex showcasing architectural excellence"
                     class="w-full h-full object-cover">
 
@@ -478,55 +482,55 @@
                 {{-- Ulangi blok ini untuk setiap gambar. Ganti path gambar sesuai kebutuhan. --}}
                 <div class="group">
                     <a href="#"
-                        @click.prevent="showModal = true; modalImage = '{{ asset('storage/sites/arcadia-1.jpg') }}'"
+                        @click.prevent="showModal = true; modalImage = 'https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1759577793/konsep_arca-1_bydzw0.jpg'"
                         class="block w-full h-full rounded-2xl overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-                        <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Konsep Rukost Modern Minimalis 1"
-                            class="w-full h-full object-cover">
+                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1759577793/konsep_arca-1_bydzw0.jpg"
+                            alt="Konsep Rukost Modern Minimalis 1" class="w-full h-full object-cover">
                     </a>
                 </div>
 
                 <div class="group">
                     <a href="#"
-                        @click.prevent="showModal = true; modalImage = '{{ asset('storage/sites/arcadia-1.jpg') }}'"
+                        @click.prevent="showModal = true; modalImage = 'https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1759577790/konsep_arca-2_ykjuou.jpg'"
                         class="block w-full h-full rounded-2xl overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-                        <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Konsep Rukost Modern Minimalis 2"
-                            class="w-full h-full object-cover">
+                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1759577790/konsep_arca-2_ykjuou.jpg"
+                            alt="Konsep Rukost Modern Minimalis 2" class="w-full h-full object-cover">
                     </a>
                 </div>
 
                 <div class="group">
                     <a href="#"
-                        @click.prevent="showModal = true; modalImage = '{{ asset('storage/sites/arcadia-1.jpg') }}'"
+                        @click.prevent="showModal = true; modalImage = 'https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1759577788/konsep_arca-3_adf5yd.jpg'"
                         class="block w-full h-full rounded-2xl overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-                        <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Konsep Rukost Modern Minimalis 3"
-                            class="w-full h-full object-cover">
+                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1759577788/konsep_arca-3_adf5yd.jpg"
+                            alt="Konsep Rukost Modern Minimalis 3" class="w-full h-full object-cover">
                     </a>
                 </div>
 
                 <div class="group">
                     <a href="#"
-                        @click.prevent="showModal = true; modalImage = '{{ asset('storage/sites/arcadia-1.jpg') }}'"
+                        @click.prevent="showModal = true; modalImage = 'https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1759577785/konsep_arca-4_ws6eit.jpg'"
                         class="block w-full h-full rounded-2xl overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-                        <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Konsep Rukost Modern Minimalis 4"
-                            class="w-full h-full object-cover">
+                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1759577785/konsep_arca-4_ws6eit.jpg"
+                            alt="Konsep Rukost Modern Minimalis 4" class="w-full h-full object-cover">
                     </a>
                 </div>
 
                 <div class="group">
                     <a href="#"
-                        @click.prevent="showModal = true; modalImage = '{{ asset('storage/sites/arcadia-1.jpg') }}'"
+                        @click.prevent="showModal = true; modalImage = 'https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1759577790/konsep_arca-5_adgv1b.jpg'"
                         class="block w-full h-full rounded-2xl overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-                        <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Konsep Rukost Modern Minimalis 5"
-                            class="w-full h-full object-cover">
+                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1759577790/konsep_arca-5_adgv1b.jpg"
+                            alt="Konsep Rukost Modern Minimalis 5" class="w-full h-full object-cover">
                     </a>
                 </div>
 
                 <div class="group">
                     <a href="#"
-                        @click.prevent="showModal = true; modalImage = '{{ asset('storage/sites/arcadia-1.jpg') }}'"
+                        @click.prevent="showModal = true; modalImage = 'https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg'"
                         class="block w-full h-full rounded-2xl overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-                        <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Konsep Rukost Modern Minimalis 6"
-                            class="w-full h-full object-cover">
+                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg"
+                            alt="Konsep Rukost Modern Minimalis 6" class="w-full h-full object-cover">
                     </a>
                 </div>
 
@@ -690,11 +694,12 @@
                 </p>
             </div>
             <div class="text-center mt-12">
-                <button
-                    class="inline-block bg-[#DDC692] hover:bg-[#C9B480] text-black px-8 py-4 text-lg font-semibold tracking-wide rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border-2 border-black">
-                    Hubungi Kami Segera
-                </button>
-            </div>
+    <a href="https://wa.me/626285169934058" target="_blank" rel="noopener noreferrer" aria-label="Hubungi via WhatsApp">
+        <button class="inline-block bg-[#DDC692] hover:bg-[#C9B480] text-black px-8 py-4 text-lg font-semibold tracking-wide rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl border-2 border-black">
+            Hubungi Kami Segera
+        </button>
+    </a>
+</div>
     </section>
 
     <section class="py-16 lg:py-20" style="background-color: #E8E1D4;">
@@ -708,32 +713,28 @@
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
 
-                <div
-                    class="bg-white border-2 border-black rounded-lg aspect-square flex items-center justify-center p-4 text-center">
-                    <span class="text-xl font-semibold text-gray-800">
-                        Club House
-                    </span>
+                <div class="aspect-square flex flex-col items-center justify-center p-4 text-center">
+                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1757604844/minimarket-web_ayv5nb.jpg"
+                        alt="Minimarket" class="object-cover border-2 border-black w-full h-full rounded-lg">
+                    <h2 class="mt-4 text-2xl font-bold text-gray-900">Minimarket</h2>
                 </div>
 
-                <div
-                    class="bg-white border-2 border-black rounded-lg aspect-square flex items-center justify-center p-4 text-center">
-                    <span class="text-xl font-semibold text-gray-800">
-                        One Gate System
-                    </span>
+                <div class="aspect-square flex flex-col items-center justify-center p-4 text-center">
+                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1757604844/Gym-web_xgygiy.jpg"
+                        alt="Minimarket" class="object-cover border-2 border-black w-full h-full rounded-lg">
+                    <h2 class="mt-4 text-2xl font-bold text-gray-900">Gym Area</h2>
+                </div>  
+
+                <div class="aspect-square flex flex-col items-center justify-center p-4 text-center">
+                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1757604843/Laundry-web_l5qaki.jpg"
+                        alt="Minimarket" class="object-cover border-2 border-black w-full h-full rounded-lg">
+                    <h2 class="mt-4 text-2xl font-bold text-gray-900">Laundry Area</h2>
                 </div>
 
-                <div
-                    class="bg-white border-2 border-black rounded-lg aspect-square flex items-center justify-center p-4 text-center">
-                    <span class="text-xl font-semibold text-gray-800">
-                        Laundry
-                    </span>
-                </div>
-
-                <div
-                    class="bg-white border-2 border-black rounded-lg aspect-square flex items-center justify-center p-4 text-center">
-                    <span class="text-xl font-semibold text-gray-800">
-                        Gym
-                    </span>
+                <div class="aspect-square flex flex-col items-center justify-center p-4 text-center">
+                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1757604843/parkingarea-web_fwg68m.jpg"
+                        alt="Minimarket" class="object-cover border-2 border-black w-full h-full rounded-lg">
+                    <h2 class="mt-4 text-2xl font-bold text-gray-900">Parking Area</h2>
                 </div>
 
             </div>
@@ -753,7 +754,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center max-w-7xl mx-auto">
 
                 <div class="w-full flex justify-center lg:justify-end">
-                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756666077/image_32_oj7wxi.png"
+                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1759577805/Peta_lokasi_Arcadia_omfdeh.gif"
                         alt="Peta Lokasi Strategis Atlas Arcadia"
                         class="rounded-lg max-w-md w-full h-auto object-contain">
                 </div>
@@ -792,6 +793,95 @@
         </div>
     </section>
 
+    <section class="pb-16 lg:pt-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
+            <div class="flex justify-between items-end mb-12">
+                <div>
+                    <h2 class="text-4xl lg:text-5xl font-bold text-gray-900">Perkembangan Progress</h2>
+                </div>
+            </div>
+
+            <div class="max-w-6xl mx-auto">
+                <div class="space-y-8">
+
+                    <div class="flex gap-6">
+                        <div class="bg-gray-100 rounded-xl border-2 border-gray-300 aspect-[4/3] w-80 flex-shrink-0 flex flex-col">
+                            <div class="flex-1 overflow-hidden rounded-t-xl">
+                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1755847807/arcadia-1_u7guoe.jpg"
+                                    alt="Atlas Arcadia" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-4">
+                                <h3 class="font-bold text-lg text-gray-900">Atlas Arcadia</h3>
+                                <p class="text-gray-600 text-sm">Purwokerto, Ledug</p>
+                            </div>
+                        </div>
+
+                        <div class="flex-1 overflow-hidden">
+                            <div class="flex gap-4 overflow-x-auto pb-4 scrollbar-hide" style="scroll-behavior: smooth;">
+                                <div class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                    <div class="p-1 border-b border-gray-200">
+                                        <span class="text-sm ml-4 font-medium text-gray-700">Agustus 2025</span>
+                                    </div>
+                                    <button type="button" class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                        data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.38_m45t7j.jpg">
+                                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.38_m45t7j.jpg"
+                                            alt="Progress Image" class="w-full h-full object-cover">
+                                    </button>
+                                </div>
+                                <div class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                    <div class="p-1 border-b border-gray-200">
+                                        <span class="text-sm ml-4 font-medium text-gray-700">Agustus 2025</span>
+                                    </div>
+                                    <button type="button" class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                        data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.25_1_st3fnl.jpg">
+                                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.25_1_st3fnl.jpg"
+                                            alt="Progress Image" class="w-full h-full object-cover">
+                                    </button>
+                                </div>
+                                <div class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                    <div class="p-1 border-b border-gray-200">
+                                        <span class="text-sm ml-4 font-medium text-gray-700">Juli 2025</span>
+                                    </div>
+                                    <button type="button" class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                        data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544151/WhatsApp_Image_2025-08-30_at_12.47.23_pzq9rr.jpg">
+                                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544151/WhatsApp_Image_2025-08-30_at_12.47.23_pzq9rr.jpg"
+                                            alt="Progress Image" class="w-full h-full object-cover">
+                                    </button>
+                                </div>
+                                <div class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                    <div class="p-1 border-b border-gray-200">
+                                        <span class="text-sm ml-4 font-medium text-gray-700">Juni 2025</span>
+                                    </div>
+                                    <button type="button" class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                        data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.24_iwkagk.jpg">
+                                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544152/WhatsApp_Image_2025-08-30_at_12.47.24_iwkagk.jpg"
+                                            alt="Progress Image" class="w-full h-full object-cover">
+                                    </button>
+                                </div>
+                                <div class="bg-gray-50 rounded-xl border border-gray-200 aspect-square w-48 flex-shrink-0 flex flex-col">
+                                    <div class="p-1 border-b border-gray-200">
+                                        <span class="text-sm ml-4 font-medium text-gray-700">Mei 2025</span>
+                                    </div>
+                                    <button type="button" class="flex-1 w-full h-full overflow-hidden rounded-b-xl focus:outline-none focus:ring-2 focus:ring-primary-500 cursor-zoom-in"
+                                        data-preview-src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544154/WhatsApp_Image_2025-08-30_at_12.47.25_tcg83p.jpg">
+                                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1756544154/WhatsApp_Image_2025-08-30_at_12.47.25_tcg83p.jpg"
+                                            alt="Progress Image" class="w-full h-full object-cover">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="imagePreviewModal" class="fixed inset-0 bg-black/70 hidden items-center justify-center z-[100] p-4">
+        <div class="relative max-w-5xl w-full">
+            <button type="button" class="absolute -top-3 -right-3 w-10 h-10 rounded-full bg-white/90 text-black grid place-items-center" data-close-modal>&times;</button>
+            <img id="imagePreviewImg" src="" alt="Preview" class="w-full h-auto rounded-2xl shadow-2xl">
+        </div>
+    </div>
+
     {{-- siteplan --}}
     {{-- <section class="bg-white">
         <div class="grid grid-cols-1 lg:grid-cols-2">
@@ -812,9 +902,9 @@
                 </div>
             </div>
             <div class="relative overflow-hidden min-h-[400px] lg:min-h-[600px]">
-                <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Arcadia Siteplan"
+                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg" alt="Arcadia Siteplan"
                     class="w-full h-full object-cover">
-                <img src="{{ asset('storage/sites/arcadia-1.jpg') }}" alt="Arcadia Siteplan Placeholder"
+                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg" alt="Arcadia Siteplan Placeholder"
                     class="w-full h-full object-cover absolute inset-0 -z-10" onerror="this.style.display='none'">
             </div>
         </div>
@@ -988,32 +1078,41 @@
 </x-superduper.main>
 
 <script>
-    $(document).ready(function() {
-        $("#leftPaneButton").click(function() {
-            $("#leftPane").animate({
-                width: 0
-            }, 1000);
-            $("#rightPane").animate({
-                width: "100%"
-            }, 1000);
-        });
+document.addEventListener('click', function (e) {
+    var trigger = e.target.closest('[data-preview-src]');
+    if (!trigger) return;
+    e.preventDefault();
+    var src = trigger.dataset.previewSrc || (trigger.querySelector('img') && trigger.querySelector('img').src);
+    if (!src) return;
+    var modal = document.getElementById('imagePreviewModal');
+    var img = document.getElementById('imagePreviewImg');
+    if (!modal || !img) return;
+    img.src = src;
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+});
 
-        $("#rightPaneButton").click(function() {
-            $("#leftPane").animate({
-                width: "100%"
-            }, 1000);
-            $("#rightPane").animate({
-                width: 0
-            }, 1000);
-        });
-    });
+document.addEventListener('click', function (e) {
+    if (e.target.closest('[data-close-modal]') || e.target.id === 'imagePreviewModal') {
+        var modal = document.getElementById('imagePreviewModal');
+        var img = document.getElementById('imagePreviewImg');
+        if (!modal || !img) return;
+        modal.classList.remove('flex');
+        modal.classList.add('hidden');
+        img.src = '';
+    }
+});
 
-    window.instgrm || (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "https://www.instagram.com/embed.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'instagram-wjs'));
+document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+        var modal = document.getElementById('imagePreviewModal');
+        var img = document.getElementById('imagePreviewImg');
+        if (!modal || !img) return;
+        if (modal.classList.contains('flex')) {
+            modal.classList.remove('flex');
+            modal.classList.add('hidden');
+            img.src = '';
+        }
+    }
+});
 </script>

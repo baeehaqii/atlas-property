@@ -54,7 +54,7 @@ return [
     'channels' => [
         'stack' => [
             'driver' => 'stack',
-            'channels' => ['single'],
+            'channels' => ['safe_logging'],
             'ignore_exceptions' => false,
         ],
 
@@ -89,7 +89,7 @@ return [
             'handler_with' => [
                 'host' => env('PAPERTRAIL_URL'),
                 'port' => env('PAPERTRAIL_PORT'),
-                'connectionString' => 'tls://'.env('PAPERTRAIL_URL').':'.env('PAPERTRAIL_PORT'),
+                'connectionString' => 'tls://' . env('PAPERTRAIL_URL') . ':' . env('PAPERTRAIL_PORT'),
             ],
             'processors' => [PsrLogMessageProcessor::class],
         ],
@@ -133,6 +133,18 @@ return [
             'level' => 'warning',
             'days' => 90,
             'replace_placeholders' => true,
+        ],
+
+        'production' => [
+            'driver' => 'stack',
+            'channels' => ['stderr', 'errorlog'],
+            'ignore_exceptions' => false,
+        ],
+
+        'safe_logging' => [
+            'driver' => 'stack',
+            'channels' => is_writable(storage_path()) ? ['single'] : ['errorlog'],
+            'ignore_exceptions' => false,
         ],
     ],
 

@@ -28,6 +28,10 @@ Route::get('/home-preview', function () {
     return view('components.superduper.pages.home');
 })->name('home.preview');
 
+Route::fallback(function () {
+    return response()->view('errors.404', ['title' => 'halaman'], 404);
+});
+
 Route::get('/blog', BlogList::class)->name('blog');
 
 Route::get('/blog/{slug}', BlogDetails::class)->name('blog.show');

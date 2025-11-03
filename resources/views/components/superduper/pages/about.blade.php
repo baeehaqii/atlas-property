@@ -1,5 +1,7 @@
+@section('title', 'Tentang Atlas Property')
+
 <x-superduper.main>
-    <section class="py-12 lg:py-40 bg-white">
+    <section class="py-12 lg:py-10 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
 
             {{-- Header Section --}}
@@ -13,7 +15,7 @@
             {{-- Hero Image Section --}}
             <div class="mb-12 lg:mb-16">
                 <div class="relative rounded-3xl overflow-hidden shadow-2xl">
-                    <img src="{{ asset('storage/sites/casadia.jpg') }}" alt="Professional team of real estate experts"
+                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1755847805/arcadia_zspheo.jpg" alt="Tentang Atlas Property Purwokerto"
                         class="w-full h-[400px] sm:h-[500px] lg:h-[600px] xl:h-[700px] object-cover">
 
                     {{-- Optional overlay for better text readability if needed --}}
@@ -96,8 +98,8 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
                     <div class="order-2 lg:order-1">
                         <div class="rounded-3xl overflow-hidden shadow-xl">
-                            <img src="{{ asset('storage/sites/arcadia-1.jpg') }}"
-                                alt="Modern skyscrapers representing our vision"
+                            <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1755847805/casadia_mbswj9.jpg"
+                                alt="Atlas Property"
                                 class="w-full h-64 lg:h-80 object-cover">
                         </div>
                     </div>
@@ -133,7 +135,7 @@
                     </div>
                     <div>
                         <div class="rounded-3xl overflow-hidden shadow-xl">
-                            <img src="{{ asset('storage/sites/majestic.jpg') }}"
+                            <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1755847807/arcadia-1_u7guoe.jpg"
                                 alt="Architectural excellence and growth" class="w-full h-64 lg:h-80 object-cover">
                         </div>
                     </div>
@@ -143,7 +145,7 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
                     <div class="order-2 lg:order-1">
                         <div class="rounded-3xl overflow-hidden shadow-xl">
-                            <img src="{{ asset('storage/sites/casadia.jpg') }}"
+                            <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1755847813/majestic_dazdbg.jpg"
                                 alt="Professional construction team at work" class="w-full h-64 lg:h-80 object-cover">
                         </div>
                     </div>
@@ -380,7 +382,7 @@
                         {{-- Video Thumbnail (Left Side - 2 columns) --}}
                         <div class="lg:col-span-2">
                             <div class="relative rounded-2xl overflow-hidden">
-                                <img src="{{ asset('storage/sites/company-profile-video.jpg') }}"
+                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1755847813/majestic_dazdbg.jpg"
                                     alt="Wonder Real Estate Company Profile" class="w-full h-48 lg:h-64 object-cover">
 
                                 {{-- Dark Overlay --}}

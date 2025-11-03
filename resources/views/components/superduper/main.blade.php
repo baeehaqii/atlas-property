@@ -91,7 +91,7 @@
     @endphp
 
     @if (!$generalSettings->search_engine_indexing)
-        <meta name="robots" content="noindex">
+        <meta name="robots" content="index, follow">
     @endif
 
     <meta charset="UTF-8">
@@ -104,9 +104,9 @@
 
     <!-- SEO Meta Tags -->
     <meta name="keywords"
-        content="{{ $metaKeywords ?? ($seoSettings->meta_keywords ?? 'starter kit, development, templates, components, web solutions, digital transformation') }}" />
+        content="{{ $metaKeywords ?? ($seoSettings->meta_keywords ?? 'atlas property purwokerto') }}" />
     <meta name="description"
-        content="{{ $pageDescription ?? ($seoSettings->meta_description ?? ($siteSettings->description ?? 'SuperDuper Starter Kit provides everything you need to jumpstart your web project with pre-built components, layouts, and tools that enhance development efficiency and productivity.')) }}">
+        content="{{ $pageDescription ?? ($seoSettings->meta_description ?? ($siteSettings->description ?? 'atlas property adalah developer property di purwokerto')) }}">
 
     <!-- Mobile Optimization Meta Tags -->
     <meta name="format-detection" content="telephone=no">
@@ -162,8 +162,9 @@
     @endif
 
     @yield('meta')
+    <title>@yield('title', 'Atlas Property')</title>
 
-    <title>{{ $title }}</title>
+    {{-- <title>{{ $title }}</title> --}}
 
     <!-- Favicon from settings -->
     <link rel="shortcut icon" href="{{ $favicon ? Storage::url($favicon) : asset('superduper/img/favicon.png') }}"
