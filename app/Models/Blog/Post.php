@@ -16,6 +16,7 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\Image\Enums\Fit;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Spatie\Tags\HasTags;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Str;
 
 class Post extends Model implements HasMedia
@@ -102,6 +103,14 @@ class Post extends Model implements HasMedia
             if ($post->isDirty('title') && !$post->isDirty('slug')) {
                 $post->slug = Str::slug($post->title);
             }
+        });
+
+        static::saved(function () {
+            Cache::forget('home_posts');
+        });
+
+        static::deleted(function () {
+            Cache::forget('home_posts');
         });
     }
 

@@ -4,6 +4,8 @@ use App\Models\Banner\Content;
 use App\Models\Blog\Post;
 use App\Livewire\SuperDuper\BlogList;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Log;
 use App\Livewire\SuperDuper\BlogDetails;
 use App\Livewire\SuperDuper\Pages\ContactUs;
 use Lab404\Impersonate\Services\ImpersonateManager;
@@ -20,8 +22,18 @@ use Lab404\Impersonate\Services\ImpersonateManager;
 */
 
 Route::get('/', function () {
-    $posts = Post::published()->latest()->take(8)->get();
-    $banners = Content::active()->orderBy('sort')->get();
+    $cacheTime = 3600; // 1 hour
+
+    $posts = Cache::remember('home_posts', $cacheTime, function () {
+        Log::info('Caching home posts');
+        return Post::published()->latest()->take(8)->get();
+    });
+
+    $banners = Cache::remember('home_banners', $cacheTime, function () {
+        Log::info('Caching home banners');
+        return Content::active()->orderBy('sort')->get();
+    });
+
     return view('components.superduper.pages.home', compact('posts', 'banners'));
 })->name('home');
 Route::get('/home-preview', function () {

@@ -19,14 +19,11 @@ class SettingsServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        View::composer('*', function ($view) {
-            $view->with([
-                'generalSettings' => app(GeneralSettings::class),
-                'siteSettings' => app(SiteSettings::class),
-                'seoSettings' => app(SiteSeoSettings::class),
-                'siteSocialSettings' => app(SiteSocialSettings::class),
-                'scriptSettings' => app(SiteScriptSettings::class),
-            ]);
-        });
+        // Share settings once instead of using a wildcard composer that runs for every partial
+        View::share('generalSettings', app(GeneralSettings::class));
+        View::share('siteSettings', app(SiteSettings::class));
+        View::share('seoSettings', app(SiteSeoSettings::class));
+        View::share('siteSocialSettings', app(SiteSocialSettings::class));
+        View::share('scriptSettings', app(SiteScriptSettings::class));
     }
 }

@@ -1,7 +1,11 @@
 @php
     use Datlechin\FilamentMenuBuilder\Models\Menu;
-    $mainMenu = Menu::where('name', 'main')->first();
-    $items = $mainMenu ? $mainMenu->menuItems()->orderBy('order')->get() : [];
+    use Illuminate\Support\Facades\Cache;
+
+    $items = Cache::remember('footer_menu_items', 3600, function () {
+        $mainMenu = Menu::where('name', 'main')->first();
+        return $mainMenu ? $mainMenu->menuItems()->orderBy('order')->get() : collect([]);
+    });
 @endphp
 <footer class="bg-[#042849] text-gray-300 rounded-t-2xl mt-12">
     <div class="container mx-auto px-6 lg:px-8 py-12">
@@ -10,7 +14,7 @@
             <div class="md:col-span-4">
                 <div>
                     <a href="{{ route('home') }}" class="relative z-10 flex-shrink-0">
-                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756831080/logoAtlas_uojdux.png"
+                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/f_auto,q_auto,w_200/v1756831080/logoAtlas_uojdux.png"
                             alt="Atlas Property" class="w-auto h-10 md:h-12" />
                     </a>
                 </div>
@@ -87,18 +91,18 @@
 
         <div
             class="border-t border-[#DDC692] mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
-            <p class="text-gray-400 mb-4 md:mb-0">Copyright &copy; 2025 Atlas Properties. All rights reserved.</p>
+            <p class="text-gray-400 mb-4 md:mb-0">Copyright &copy; 2026 Atlas Properties. All rights reserved.</p>
             <div class="flex space-x-4">
                 <a href="#" class="text-gray-400 hover:text-white">
-                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756787443/whatsapp_be9fcu.png"
+                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/f_auto,q_auto,w_40/v1756787443/whatsapp_be9fcu.png"
                         alt="WhatsApp" class="w-5 h-5" />
                 </a>
                 <a href="#" class="text-gray-400 hover:text-white">
-                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756837212/tik-tok_h3g44t.png"
+                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/f_auto,q_auto,w_40/v1756837212/tik-tok_h3g44t.png"
                         alt="TikTok" class="w-5 h-5" />
                 </a>
                 <a href="#" class="text-gray-400 hover:text-white">
-                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1756837212/instagram_tfwnwo.png"
+                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/f_auto,q_auto,w_40/v1756837212/instagram_tfwnwo.png"
                         alt="Instagram" class="w-5 h-5" />
                 </a>
             </div>

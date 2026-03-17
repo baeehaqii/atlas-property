@@ -99,6 +99,13 @@
     <meta name="application-name" content="{{ $siteName }}">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <!-- DNS Prefetch & Preconnect -->
+    <link rel="preconnect" href="https://res.cloudinary.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://res.cloudinary.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ $seoSettings->canonical_url ?? url()->current() }}" />
 
@@ -207,10 +214,10 @@
 
     @livewireStyles
 
-    <!-- Header scripts -->
-    @if (isset($scriptSettings->header_scripts))
+    <!-- Header scripts disabled temporarily for performance optimization -->
+    {{-- @if (isset($scriptSettings->header_scripts))
         {!! $scriptSettings->header_scripts !!}
-    @endif
+    @endif --}}
 
     <!--  structured data (JSON-LD) -->
     <script type="application/ld+json">
@@ -238,10 +245,10 @@
 </head>
 
 <body>
-    <!-- Body start scripts -->
-    @if (isset($scriptSettings->body_start_scripts))
+    <!-- Body start scripts disabled temporarily -->
+    {{-- @if (isset($scriptSettings->body_start_scripts))
         {!! $scriptSettings->body_start_scripts !!}
-    @endif
+    @endif --}}
 
     @if (isset($siteSettings->is_maintenance) && $siteSettings->is_maintenance)
         <div class="maintenance-mode">
@@ -297,10 +304,10 @@
         </script>
     @endif
 
-    <!-- Footer scripts -->
-    @if (isset($scriptSettings->footer_scripts))
+    <!-- Footer scripts disabled temporarily -->
+    {{-- @if (isset($scriptSettings->footer_scripts))
         {!! $scriptSettings->footer_scripts !!}
-    @endif
+    @endif --}}
 
     <!-- Body end scripts -->
     @if (isset($scriptSettings->body_end_scripts))

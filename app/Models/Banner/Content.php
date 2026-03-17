@@ -14,11 +14,27 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\Image\Enums\Fit;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
+use Illuminate\Support\Facades\Cache;
+
 class Content extends Model implements HasMedia
 {
     use InteractsWithMedia;
     use HasFactory, HasUlids, SoftDeletes;
     use HasUserStamp;
+
+    /**
+     * Boot function from Laravel.
+     */
+    protected static function booted()
+    {
+        static::saved(function () {
+            Cache::forget('home_banners');
+        });
+
+        static::deleted(function () {
+            Cache::forget('home_banners');
+        });
+    }
 
     /**
      * The table associated with the model.

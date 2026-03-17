@@ -208,7 +208,7 @@
                     <ul class="text-left text-gray-700 space-y-2 text-lg">
                         <li>• Min. per Bulan 9jt</li>
                         <li>• Kenaikan harga property 5% pertahun</li>
-                        <li>• Blablabla</li>
+                        {{-- <li>• Blablabla</li> --}}
                     </ul>
                 </div>
 
@@ -219,8 +219,8 @@
                     </div>
                     <ul class="text-left text-gray-700 space-y-2 text-lg">
                         <li>• CCTV</li>
-                        <li>• Blablabla</li>
-                        <li>• Parkira</li>
+                        {{-- <li>• Blablabla</li> --}}
+                        <li>• Parkiran</li>
                         <li>• One gate system</li>
                     </ul>
                 </div>
@@ -233,7 +233,7 @@
                     <ul class="text-left text-gray-700 space-y-2 text-lg">
                         <li>• 5 menit dari UMP</li>
                         <li>• 12 Menit dari Unsoed</li>
-                        <li>• etc etc</li>
+                        {{-- <li>• etc etc</li> --}}
                     </ul>
                 </div>
 
@@ -244,7 +244,7 @@
                     <ul class="text-left text-gray-700 space-y-2 text-lg">
                         <li>• Property management</li>
                         <li>• Konsep minimalis modern</li>
-                        <li>• Blabla</li>
+                        {{-- <li>• Blabla</li> --}}
                     </ul>
                 </div>
             </div>
@@ -896,7 +896,7 @@
                         commitment to the highest standards, precision, and exceptional service delivery.
                     </p>
                     <p class="text-white/90 text-base lg:text-lg xl:text-xl leading-relaxed font-light">
-                        Wonder Real Estate, developed under the Wonder Group, is more than just a property management
+                        Atlas Property, developed under the Atlas Group, is more than just a property management
                         company, it is a vision of exceptional service and unparalleled expertise.
                     </p>
                 </div>
@@ -1005,7 +1005,7 @@
                         commitment to the highest standards, precision, and exceptional service delivery.
                     </p>
                     <p class="text-white/90 text-base lg:text-lg xl:text-xl leading-relaxed font-light">
-                        Wonder Real Estate, developed under the Wonder Group, is more than just a property management
+                        Atlas Property, developed under the Atlas Group, is more than just a property management
                         company, it is a vision of exceptional service and unparalleled expertise.
                     </p>
                 </div>
@@ -1036,7 +1036,7 @@
 
                 <p class="text-gray-600 text-lg lg:text-xl leading-relaxed max-w-4xl mx-auto mb-8 lg:mb-12">
                     Daftar untuk newsletter kami agar tetap mendapatkan informasi tentang berita terbaru, pembaruan, dan
-                    penawaran eksklusif dari Wonder Real Estate. Dengan berlangganan, Anda akan menerima email reguler
+                    penawaran eksklusif dari Atlas Property. Dengan berlangganan, Anda akan menerima email reguler
                     yang menampilkan sorotan proyek, wawasan industri, dan tips untuk kebutuhan manajemen properti Anda.
                 </p>
 

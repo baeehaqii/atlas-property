@@ -191,7 +191,7 @@
             <!-- Desktop Button -->
             <a href="https://wa.me/6285169934058"
                 class="relative z-10 hidden rounded-full border-2 border-black bg-[#DDC692] px-6 py-2 text-sm font-semibold text-black transition-all duration-300 hover:bg-[#C9B480] sm:inline-block">
-                Hubungi Kamii
+                Hubungi Kami
             </a>
 
             <!-- Mobile Menu Trigger -->

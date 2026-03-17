@@ -1,6 +1,6 @@
 <x-superduper.main>
-    {{-- Link untuk Swiper.js CSS --}}
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    {{-- Redundant Swiper CSS removed - already in layout --}}
+
 
     <div class="page-wrapper relative z-[1]">
         <main class="relative overflow-hidden main-wrapper">
@@ -9,27 +9,50 @@
 
             <section class="relative min-h-screen overflow-hidden">
                 <div class="absolute inset-0 z-0">
-                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_40/hero-bg_okioxm.jpg"
-                        alt="Atlas Property" class="w-full h-full object-cover">
+                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_40/v1773674785/casavida_4_-_Photo_ozxz59.avif"
+                        alt="Atlas Property" class="w-full h-full object-cover" fetchpriority="high" width="1920" height="1080">
                 </div>
 
-                <!-- Gradient overlay from bottom to top -->
-                <div class="absolute inset-0 z-10 bg-gradient-to-t from-white via-white/50 to-transparent"></div>
+                <!-- Elegant Dark Overlay with bit more punch -->
+                <div class="absolute inset-0 z-10 bg-gradient-to-tr from-black/60 via-transparent to-black/30"></div>
 
-                <div class="relative z-20 h-screen flex flex-col justify-end pb-20 lg:pb-32">
+                <div class="relative z-20 h-screen flex flex-col justify-center pt-20">
                     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 w-full">
-                        <div class="max-w-4xl">
-                            <h1
-                                class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-black leading-tight mb-6">
-                                Hunian Untuk Semua
-                                <span class="block">Dari Purwokerto, Untuk Indonesia</span>
-                            </h1>
+                        <div class="max-w-3xl lg:translate-y-12">
+                            <!-- Glassmorphism Card (Reduced Blur) -->
+                            <div class="relative overflow-hidden rounded-[2rem] bg-black/15 backdrop-blur-xl border border-white/50 p-8 md:p-10 shadow-2xl">
+                                <!-- Subtle glowing accent -->
+                                <div class="absolute -top-24 -left-24 w-48 h-48 bg-[#DDC692]/10 blur-[100px] rounded-full"></div>
+                                
+                                <h1 class="relative text-4xl sm:text-5xl lg:text-5xl xl:text-6xl font-black text-white leading-tight mb-4 tracking-tight">
+                                    Hunian Untuk Semua
+                                    <span class="block text-[#DDC692] drop-shadow-sm">Dari Purwokerto, Untuk Indonesia</span>
+                                </h1>
 
-                            <p
-                                class="text-lg sm:text-xl lg:text-2xl text-black/70 font-normal leading-relaxed max-w-3xl">
-                                Membangun hunian berkualitas di Jawa Tengah dengan standar transparansi,
-                                kualitas hunian modern, dan komitmen layanan jangka panjang.
-                            </p>
+                                <p class="relative text-base sm:text-lg text-white/80 font-normal leading-relaxed max-w-xl mb-8">
+                                    Membangun hunian berkualitas di Jawa Tengah dengan <span class="text-white font-semibold">standar transparansi</span>, 
+                                    kualitas hunian modern, dan komitmen layanan jangka panjang.
+                                </p>
+
+                                <div class="relative flex flex-wrap gap-4">
+                                    <a href="https://wa.me/6285169934058"
+                                        class="group inline-flex items-center gap-3 overflow-hidden rounded-full border border-[#042849]/50 bg-[#DDC692] px-7 py-3 text-base font-extrabold text-black transition-all duration-500 hover:bg-white active:scale-95 shadow-lg">
+                                        <span>Konsultasi Gratis</span>
+                                        <div class="flex h-7 w-7 items-center justify-center rounded-full bg-black/5 transition-transform duration-500 group-hover:rotate-45">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                            </svg>
+                                        </div>
+                                    </a>
+                                    
+                                    <a href="#hunian" class="inline-flex items-center gap-2 px-6 py-3 text-white font-bold text-base hover:text-[#DDC692] transition-colors duration-300">
+                                        Lihat Proyek
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7-7-7" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -68,9 +91,10 @@
                         <div class="relative">
                             <div class="relative">
                                 <div class="rounded-2xl overflow-hidden shadow-2xl">
-                                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg"
+                                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/f_auto,q_auto,w_800/v1755847807/arcadia-1_u7guoe.jpg"
                                         alt="Atlas Arcadia"
-                                        class="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700">
+                                        class="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700"
+                                        loading="lazy" width="800" height="600">
                                 </div>
 
                                 <!-- Optional: Decorative element -->
@@ -82,7 +106,7 @@
                 </div>
             </section>
 
-            {{-- Why Wonder Section --}}
+            {{-- Why Atlas Section --}}
             <section class="py-16 lg:py-24 bg-[#042849] rounded-xl">
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
                     <div class="text-center mb-12">
@@ -95,9 +119,10 @@
                         <div class="max-w-md mx-auto">
                             <div
                                 class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer transform hover:scale-105 transition-all duration-300">
-                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1756519505/modern-fungsional_h1prfo.jpg"
-                                    alt="Arcadia Property" alt="Modern Houses"
-                                    class="absolute inset-0 w-full h-full object-cover">
+                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/f_auto,q_auto,w_500/v1756519505/modern-fungsional_h1prfo.jpg"
+                                    alt="Modern & Fungsional"
+                                    class="absolute inset-0 w-full h-full object-cover"
+                                    loading="lazy" width="500" height="400">
                                 <div class="absolute inset-0 bg-black bg-opacity-40"></div>
                                 <div class="relative z-10 p-6 h-full flex flex-col justify-end">
                                     <div>
@@ -113,13 +138,14 @@
                             </div>
                         </div>
 
-                        <!-- Card 2: Modern & Fungsional -->
+                        <!-- Card 2: Home for Everyone -->
                         <div class="max-w-md mx-auto">
                             <div
                                 class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer transform hover:scale-105 transition-all duration-300">
-                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1756519505/home_for_everyone_xl8kqs.jpg"
-                                    alt="Arcadia Property" alt="Modern Houses"
-                                    class="absolute inset-0 w-full h-full object-cover">
+                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/f_auto,q_auto,w_500/v1756519505/home_for_everyone_xl8kqs.jpg"
+                                    alt="Home for Everyone"
+                                    class="absolute inset-0 w-full h-full object-cover"
+                                    loading="lazy" width="500" height="400">
                                 <div class="absolute inset-0 bg-black bg-opacity-40"></div>
                                 <div class="relative z-10 p-6 h-full flex flex-col justify-end">
                                     <div>
@@ -135,18 +161,19 @@
                             </div>
                         </div>
 
-                        <!-- Card 3: Atlas Care & Service -->
+                        <!-- Card 3: Inovasi -->
                         <div class="max-w-md mx-auto">
                             <div
                                 class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer transform hover:scale-105 transition-all duration-300">
-                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1756544149/WhatsApp_Image_2025-08-30_at_11.32.35_apblwt.jpg"
-                                    alt="Arcadia Property" alt="Modern Houses"
-                                    class="absolute inset-0 w-full h-full object-cover">
+                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/f_auto,q_auto,w_500/v1756544149/WhatsApp_Image_2025-08-30_at_11.32.35_apblwt.jpg"
+                                    alt="Membawa Inovasi"
+                                    class="absolute inset-0 w-full h-full object-cover"
+                                    loading="lazy" width="500" height="400">
                                 <div class="absolute inset-0 bg-black bg-opacity-40"></div>
                                 <div class="relative z-10 p-6 h-full flex flex-col justify-end">
                                     <div>
                                         <h3 class="text-2xl font-bold text-white mb-2">Membawa Inovasi</h3>
-                                        <p class="text-white text-sm mb-4 opacity-90">Inovasi terbaru di dunian properti
+                                        <p class="text-white text-sm mb-4 opacity-90">Inovasi terbaru di dunia properti
                                             dalam bangunan hingga model kerjasama</p>
                                         <a href="https://wa.me/6285169934058" target="_blank" rel="noopener noreferrer"
                                             class="relative z-10 rounded-full border-2 border-black bg-[#DDC692] px-6 py-2 text-sm font-semibold text-black transition-all duration-300 hover:bg-[#C9B480] sm:inline-block">
@@ -161,9 +188,10 @@
                         <div class="max-w-md mx-auto">
                             <div
                                 class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer transform hover:scale-105 transition-all duration-300">
-                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1756519503/Atlas_Care_-_Service_yzu5yq.jpg"
-                                    alt="Arcadia Property" alt="Modern Houses"
-                                    class="absolute inset-0 w-full h-full object-cover">
+                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/f_auto,q_auto,w_500/v1756519503/Atlas_Care_-_Service_yzu5yq.jpg"
+                                    alt="Atlas Care & Service"
+                                    class="absolute inset-0 w-full h-full object-cover"
+                                    loading="lazy" width="500" height="400">
                                 <div class="absolute inset-0 bg-black bg-opacity-40"></div>
                                 <div class="relative z-10 p-6 h-full flex flex-col justify-end">
                                     <div>
@@ -183,9 +211,10 @@
                         <div class="max-w-md mx-auto">
                             <div
                                 class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer transform hover:scale-105 transition-all duration-300">
-                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1756519503/Tim_Profesional_fuor2g.jpg"
-                                    alt="Arcadia Property" alt="Modern Houses"
-                                    class="absolute inset-0 w-full h-full object-cover">
+                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/f_auto,q_auto,w_500/v1756519503/Tim_Profesional_fuor2g.jpg"
+                                    alt="Tim Profesional"
+                                    class="absolute inset-0 w-full h-full object-cover"
+                                    loading="lazy" width="500" height="400">
                                 <div class="absolute inset-0 bg-black bg-opacity-40"></div>
                                 <div class="relative z-10 p-6 h-full flex flex-col justify-end">
                                     <div>
@@ -205,9 +234,10 @@
                         <div class="max-w-md mx-auto">
                             <div
                                 class="relative h-64 rounded-2xl overflow-hidden group cursor-pointer transform hover:scale-105 transition-all duration-300">
-                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1756519503/Progres_Transparan_fs0sfp.jpg"
-                                    alt="Arcadia Property" alt="Modern Houses"
-                                    class="absolute inset-0 w-full h-full object-cover">
+                                <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/f_auto,q_auto,w_500/v1756519503/Progres_Transparan_fs0sfp.jpg"
+                                    alt="Progres Transparan"
+                                    class="absolute inset-0 w-full h-full object-cover"
+                                    loading="lazy" width="500" height="400">
                                 <div class="absolute inset-0 bg-black bg-opacity-40"></div>
                                 <div class="relative z-10 p-6 h-full flex flex-col justify-end">
                                     <div>
@@ -253,16 +283,16 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="pl-4 sm:pl-6 lg:pl-12">
+
                     <div class="swiper-container services-slider h-[500px] overflow-hidden">
                         <div class="swiper-wrapper">
                             {{-- Service Cards --}}
                             <div class="swiper-slide service-card-slide">
                                 <div
                                     class="service-card relative w-full h-full rounded-2xl overflow-hidden cursor-pointer">
-                                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg"
-                                        alt="Atlas Arcadia" class="absolute inset-0 w-full h-full object-cover">
+                                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/f_auto,q_auto,w_600/v1755847807/arcadia-1_u7guoe.jpg"
+                                        alt="Atlas Arcadia" class="absolute inset-0 w-full h-full object-cover"
+                                        loading="lazy" width="600" height="500">
                                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/0"></div>
                                     <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
                                         <h3 class="text-2xl font-bold text-white hover:text-secondary-800">Atlas
@@ -285,8 +315,9 @@
                             <div class="swiper-slide service-card-slide">
                                 <div
                                     class="service-card relative w-full h-full rounded-2xl overflow-hidden cursor-pointer">
-                                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847805/casadia_mbswj9.jpg"
-                                        alt="Atlas Casavida" class="absolute inset-0 w-full h-full object-cover">
+                                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_40/v1773674784/casavida_1_-_Photo_vjx44q.avif"
+                                        alt="Atlas Casadia" class="absolute inset-0 w-full h-full object-cover"
+                                        loading="lazy" width="600" height="500">
                                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/0"></div>
                                     <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
                                         <h3 class="text-2xl font-bold text-white hover:text-secondary-800">Atlas
@@ -309,8 +340,9 @@
                             <div class="swiper-slide service-card-slide">
                                 <div
                                     class="service-card relative w-full h-full rounded-2xl overflow-hidden cursor-pointer">
-                                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847813/majestic_dazdbg.jpg"
-                                        alt="Atlas Majestic" class="absolute inset-0 w-full h-full object-cover">
+                                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/f_auto,q_auto,w_600/v1755847813/majestic_dazdbg.jpg"
+                                        alt="Atlas Majestic" class="absolute inset-0 w-full h-full object-cover"
+                                        loading="lazy" width="600" height="500">
                                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/0"></div>
                                     <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
                                         <h3 class="text-2xl font-bold text-white hover:text-secondary-800">Atlas
@@ -333,8 +365,9 @@
                             <div class="swiper-slide service-card-slide">
                                 <div
                                     class="service-card relative w-full h-full rounded-2xl overflow-hidden cursor-pointer">
-                                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1755847807/arcadia-1_u7guoe.jpg"
-                                        alt="Rental Management" class="absolute inset-0 w-full h-full object-cover">
+                                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/f_auto,q_auto,w_600/v1755847807/arcadia-1_u7guoe.jpg"
+                                        alt="Pemalang" class="absolute inset-0 w-full h-full object-cover"
+                                        loading="lazy" width="600" height="500">
                                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/0"></div>
                                     <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
                                         <h3 class="text-2xl font-bold text-white hover:text-secondary-800">Pemalang
@@ -349,8 +382,9 @@
                             <div class="swiper-slide service-card-slide">
                                 <div
                                     class="service-card relative w-full h-full rounded-2xl overflow-hidden cursor-pointer">
-                                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_20/v1757604845/Majenanag_bhlrem.jpg"
-                                        alt="Rental Management" class="absolute inset-0 w-full h-full object-cover">
+                                    <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/f_auto,q_auto,w_600/v1757604845/Majenanag_bhlrem.jpg"
+                                        alt="Majenang" class="absolute inset-0 w-full h-full object-cover"
+                                        loading="lazy" width="600" height="500">
                                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-black/0"></div>
                                     <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
                                         <h3 class="text-2xl font-bold text-white hover:text-secondary-800">Majenang
@@ -387,8 +421,9 @@
                                 <div
                                     class="bg-gray-100 rounded-xl border-2 border-gray-300 aspect-[4/3] w-80 flex-shrink-0 flex flex-col">
                                     <div class="flex-1 overflow-hidden rounded-t-xl">
-                                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1755847807/arcadia-1_u7guoe.jpg"
-                                            alt="Atlas Arcadia" class="w-full h-full object-cover">
+                                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/f_auto,q_auto,w_400/v1755847807/arcadia-1_u7guoe.jpg"
+                                            alt="Atlas Arcadia" class="w-full h-full object-cover"
+                                            loading="lazy" width="400" height="300">
                                     </div>
                                     <div class="p-4">
                                         <h3 class="font-bold text-lg text-gray-900">Atlas Arcadia</h3>
@@ -472,8 +507,9 @@
                                 <div
                                     class="bg-gray-100 rounded-xl border-2 border-gray-300 aspect-[4/3] w-80 flex-shrink-0 flex flex-col">
                                     <div class="flex-1 overflow-hidden rounded-t-xl">
-                                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/q_30/v1755847808/hero-bg_okioxm.jpg"
-                                            alt="Atlas Arcadia" class="w-full h-full object-cover">
+                                        <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/f_auto,q_auto,w_400/v1755847808/hero-bg_okioxm.jpg"
+                                            alt="Atlas Casavida" class="w-full h-full object-cover"
+                                            loading="lazy" width="400" height="300">
                                     </div>
                                     <div class="p-4">
                                         <h3 class="font-bold text-lg text-gray-900">Atlas Casavida</h3>
@@ -829,7 +865,8 @@
                                             <div class="overflow-hidden">
                                                 <img class="w-full h-48 lg:h-56 object-cover group-hover:scale-105 transition-transform duration-500"
                                                     src="{{ $post->getFeaturedImageUrl('large') ?? asset('storage/sites/article-1.jpeg') }}"
-                                                    alt="{{ $post->title }}">
+                                                    alt="{{ $post->title }}"
+                                                    loading="lazy" width="400" height="250">
                                             </div>
 
                                             {{-- Article Content --}}
@@ -1005,7 +1042,7 @@
                                     <div
                                         class="bg-white p-8 lg:p-10 rounded-2xl border border-gray-200 h-full flex flex-col relative shadow-sm hover:shadow-md transition-shadow duration-300 mx-2">
                                         <p class="text-lg lg:text-xl text-gray-800 flex-grow leading-relaxed mb-8">
-                                            "Professional, reliable, and always available. Wonder Real Estate has taken
+                                            "Professional, reliable, and always available. Atlas Property has taken
                                             all the stress out of property ownership."
                                         </p>
 
@@ -1033,8 +1070,7 @@
         </main>
     </div>
 
-    {{-- Script untuk Swiper.js --}}
-    <script src="[https://unpkg.com/swiper/swiper-bundle.min.js](https://unpkg.com/swiper/swiper-bundle.min.js)"></script>
+    {{-- Swiper.js loading optimized - already handled in layout or deferred --}}
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Inisialisasi Swiper untuk Services

@@ -72,7 +72,7 @@
         </div>
     </section>
 
-    {{-- Jurneey --}}
+    {{-- Journey --}}
     <section class="py-16 lg:py-24 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12">
 
@@ -369,7 +369,7 @@
                 {{-- Introduction Paragraph --}}
                 <p class="text-gray-600 text-lg lg:text-xl leading-relaxed max-w-4xl mx-auto">
                     Tonton video profil perusahaan kami untuk mempelajari perjalanan kami, bertemu tim kami, dan
-                    menemukan apa yang menjadikan Wonder Real Estate pilihan tepercaya untuk keunggulan manajemen
+                    menemukan apa yang menjadikan Atlas Property pilihan tepercaya untuk keunggulan manajemen
                     properti.
                 </p>
             </div>
@@ -383,7 +383,7 @@
                         <div class="lg:col-span-2">
                             <div class="relative rounded-2xl overflow-hidden">
                                 <img src="https://res.cloudinary.com/dtt9ajgi3/image/upload/v1755847813/majestic_dazdbg.jpg"
-                                    alt="Wonder Real Estate Company Profile" class="w-full h-48 lg:h-64 object-cover">
+                                    alt="Atlas Property Company Profile" class="w-full h-48 lg:h-64 object-cover">
 
                                 {{-- Dark Overlay --}}
                                 <div class="absolute inset-0 bg-black/50"></div>
@@ -447,7 +447,7 @@
                 {{-- Description --}}
                 <p class="text-gray-600 text-lg lg:text-xl leading-relaxed max-w-4xl mx-auto mb-8 lg:mb-12">
                     Daftar untuk newsletter kami agar tetap mendapatkan informasi tentang berita terbaru, pembaruan, dan
-                    penawaran eksklusif dari Wonder Real Estate. Dengan berlangganan, Anda akan menerima email reguler
+                    penawaran eksklusif dari Atlas Property. Dengan berlangganan, Anda akan menerima email reguler
                     yang menampilkan sorotan proyek, wawasan industri, dan tips untuk kebutuhan manajemen properti Anda.
                 </p>
 
@@ -465,7 +465,7 @@
                                 </svg>
                             </div>
                             <input type="email" name="email" id="email" required
-                                placeholder="Enter your email"
+                                placeholder="Masukkan email Anda"
                                 class="w-full pl-12 pr-4 py-4 bg-white border-0 rounded-full sm:rounded-r-none focus:ring-2 focus:ring-blue-500 focus:outline-none text-gray-900 placeholder-gray-500 text-base lg:text-lg shadow-sm">
                         </div>
 
